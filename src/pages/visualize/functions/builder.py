@@ -8,11 +8,11 @@ import streamlit as st
 from src.data.functions.profile import infer_column_groups
 from src.pages.visualize.functions.charting import build_chart
 from src.pages.visualize.functions.filters import apply_filters
-from src.pages.visualize.functions.state import ensure_saved_charts, save_chart_spec
+from src.pages.visualize.functions.state import ensure_saved_charts, save_chart_image
 
 
 def render_visualization_builder(df: pd.DataFrame) -> None:
-    """Render all chart controls, chart output, and saved chart definitions."""
+    """Render all chart controls, chart output, and saved chart images."""
     groups = infer_column_groups(df)
     numeric_columns = groups["numeric"]
     categorical_columns = groups["categorical"]
@@ -137,38 +137,25 @@ def render_visualization_builder(df: pd.DataFrame) -> None:
             aggregation=aggregation,
             top_n=top_n,
         )
-        st.pyplot(fig, clear_figure=True, use_container_width=True)
+        st.pyplot(fig, use_container_width=True)
     except Exception as exc:
         st.error(f"Could not build the chart: {exc}")
         render_saved_chart_definitions()
         return
 
-    chart_spec = {
-        "chart_type": chart_type,
-        "x_column": x_column,
-        "y_column": y_column,
-        "group_column": group_column,
-        "aggregation": aggregation,
-        "top_n": top_n,
-        "filters": {
-            "category_filter_column": category_filter_column,
-            "category_values": category_values,
-            "numeric_filter_column": numeric_filter_column,
-            "numeric_range": list(numeric_range) if isinstance(numeric_range, Iterable) else None,
-        },
-    }
-
-    if st.button("Save chart definition to session report"):
-        save_chart_spec(chart_spec)
-        st.success("Chart definition saved for export.")
+    if st.button("Save chart image"):
+        filename = save_chart_image(fig, chart_type, x_column, y_column)
+        st.success(f"Saved chart image: {filename}")
 
     render_saved_chart_definitions()
 
 
 def render_saved_chart_definitions() -> None:
-    """Render the session-stored chart definitions below the builder."""
+    """Render the session-stored chart images below the builder."""
     saved_charts = ensure_saved_charts()
     if saved_charts:
         st.divider()
-        st.subheader("Saved chart definitions")
-        st.json(saved_charts)
+        st.subheader("Saved charts")
+        for chart in saved_charts:
+            st.caption(chart["filename"])
+            st.image(chart["image_bytes"], use_container_width=True)

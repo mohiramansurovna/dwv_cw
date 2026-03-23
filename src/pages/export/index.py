@@ -14,7 +14,6 @@ EXPORT_CSS_PATH = Path(__file__).with_name("export.css")
 
 
 def render_export_page() -> None:
-    """Render export downloads plus the final dataset/report preview."""
     apply_css(EXPORT_CSS_PATH)
     left, right = st.columns([3.2, 1.2])
     df = get_current_data()
@@ -22,10 +21,9 @@ def render_export_page() -> None:
     with left:
         st.markdown(
             """
-            <section class="page-hero export-hero">
-                <p class="page-hero__eyebrow">Page D</p>
-                <h1 class="page-hero__title">Export &amp; Report</h1>
-                <p class="page-hero__subtitle">
+            <section>
+                <h1>Export &amp; Report</h1>
+                <p>
                     Download the cleaned dataset, the transformation report, and the reproducible JSON recipe.
                 </p>
             </section>

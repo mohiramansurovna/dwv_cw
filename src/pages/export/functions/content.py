@@ -1,19 +1,20 @@
 from __future__ import annotations
 
-import json
-
 import pandas as pd
 import streamlit as st
 
-from src.data.functions.exporters import json_to_bytes, make_json_safe, report_to_markdown, text_to_bytes
+from src.data.functions.exporters import json_to_bytes, report_to_markdown, text_to_bytes
 from src.data.functions.store import get_recipe_json
 from src.data.functions.transforms import dataframe_to_csv_bytes, dataframe_to_excel_bytes
+from src.pages.export.functions.charts import build_charts_zip
 from src.pages.export.functions.report import build_safe_export_report
+from src.pages.visualize.functions.state import ensure_saved_charts
 
 
 def render_export_content(df: pd.DataFrame) -> None:
     """Render export metrics, download buttons, and the report preview."""
-    safe_report, saved_charts = build_safe_export_report(df)
+    safe_report = build_safe_export_report(df)
+    saved_charts = ensure_saved_charts()
 
     summary_cols = st.columns(4)
     summary_cols[0].metric("Final rows", f"{df.shape[0]:,}")
@@ -22,7 +23,7 @@ def render_export_content(df: pd.DataFrame) -> None:
     summary_cols[3].metric("Saved charts", len(saved_charts))
 
     st.subheader("Download outputs")
-    download_cols = st.columns(2)
+    download_cols = st.columns(3)
     download_cols[0].download_button(
         "Download cleaned CSV",
         data=dataframe_to_csv_bytes(df),
@@ -36,6 +37,14 @@ def render_export_content(df: pd.DataFrame) -> None:
         file_name="cleaned_dataset.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         use_container_width=True,
+    )
+    download_cols[2].download_button(
+        "Download charts ZIP",
+        data=build_charts_zip(saved_charts) if saved_charts else b"",
+        file_name="charts.zip",
+        mime="application/zip",
+        use_container_width=True,
+        disabled=not saved_charts,
     )
 
     report_cols = st.columns(3)
@@ -68,5 +77,7 @@ def render_export_content(df: pd.DataFrame) -> None:
     st.json(safe_report)
 
     if saved_charts:
-        st.subheader("Saved charts for the dashboard report")
-        st.code(json.dumps(make_json_safe(saved_charts), indent=2), language="json")
+        st.subheader("Saved charts")
+        for chart in saved_charts:
+            st.caption(chart["filename"])
+            st.image(chart["image_bytes"], use_container_width=True)

@@ -77,7 +77,7 @@ def set_data(
     store["current_df"] = df.copy()
     store["snapshots"] = []
     store["transform_log"] = []
-    for key in ["validation_result", "validation_title", "saved_charts"]:
+    for key in ["validation_result", "validation_title", "saved_charts", "charts"]:
         st.session_state.pop(key, None)
 
 

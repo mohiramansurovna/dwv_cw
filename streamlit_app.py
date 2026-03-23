@@ -1,14 +1,14 @@
 import streamlit as st
 
 from src.navigation.ui import render_navigation_sidebar
-from src.pages.export.ui import render_export_page
+from src.pages.export.index import render_export_page
 from src.pages.prepare.ui import render_prepare_page
 from src.pages.upload.index import render_upload_page
 from src.pages.visualize.ui import render_visualize_page
 
 
 st.set_page_config(
-    page_title="Your App",
+    page_title="DWV CW ",
     layout="wide",
     initial_sidebar_state="expanded",
 )
