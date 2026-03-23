@@ -89,7 +89,6 @@ def render_visualization_builder(df: pd.DataFrame) -> None:
 
     x_column = None
     y_column = None
-    group_column = None
     aggregation = "mean"
     top_n = 10
 
@@ -97,18 +96,12 @@ def render_visualization_builder(df: pd.DataFrame) -> None:
         x_column = st.selectbox("Numeric column", options=numeric_columns)
     elif chart_type == "box_plot":
         y_column = st.selectbox("Numeric column", options=numeric_columns)
-        group_column = st.selectbox("Group column (optional)", options=["None"] + categorical_columns)
-        group_column = None if group_column == "None" else group_column
     elif chart_type == "scatter_plot":
         x_column = st.selectbox("X column", options=numeric_columns)
         y_column = st.selectbox("Y column", options=numeric_columns, index=min(1, len(numeric_columns) - 1))
-        group_column = st.selectbox("Color/group column (optional)", options=["None"] + categorical_columns)
-        group_column = None if group_column == "None" else group_column
     elif chart_type == "line_chart":
         x_column = st.selectbox("X column", options=x_candidates)
         y_column = st.selectbox("Y column", options=y_candidates)
-        group_column = st.selectbox("Group column (optional)", options=["None"] + categorical_columns)
-        group_column = None if group_column == "None" else group_column
         aggregation = st.selectbox("Aggregation", options=["sum", "mean", "count", "median"])
     elif chart_type == "bar_chart":
         x_column = st.selectbox("Category column", options=categorical_columns or x_candidates)
@@ -133,7 +126,6 @@ def render_visualization_builder(df: pd.DataFrame) -> None:
             chart_type=chart_type,
             x_column=x_column,
             y_column=y_column,
-            group_column=group_column,
             aggregation=aggregation,
             top_n=top_n,
         )

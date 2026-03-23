@@ -14,7 +14,6 @@ from src.pages.visualize.functions.builder import render_visualization_builder
 
 def render_visualize_page() -> None:
     """Render the chart builder, filter controls, and saved chart images."""
-    apply_css(VISUALIZE_CSS_PATH)
     left, right = st.columns([3.2, 1.2])
     df = get_current_data()
 
