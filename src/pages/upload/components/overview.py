@@ -7,7 +7,6 @@ from src.data.functions.profile import infer_column_groups, profile_dataframe
 
 
 def render_overview(df: pd.DataFrame) -> None:
-    """Render the profiling dashboard shown after a dataset is loaded."""
     profile = profile_dataframe(df)
     groups = infer_column_groups(df)
     missing_cells = int(df.isna().sum().sum())

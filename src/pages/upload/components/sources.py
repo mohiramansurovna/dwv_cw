@@ -11,7 +11,6 @@ from src.pages.upload.components.datasets import (
 
 
 def render_source_tabs() -> None:
-    """Render the file-upload, and sample-data source controls."""
     upload_tab, sample_tab = st.tabs(["File Upload","Sample Data"])
 
     with upload_tab:
@@ -22,7 +21,6 @@ def render_source_tabs() -> None:
 
 
 def render_upload_tab() -> None:
-    """Render the local file upload controls."""
     uploaded_file = st.file_uploader(
         "Upload a dataset",
         type=["csv", "xlsx", "xls", "json"],
@@ -39,9 +37,18 @@ def render_upload_tab() -> None:
 
 
 def render_sample_data_tab() -> None:
-    """Render buttons for the bundled sample datasets."""
     for sample_name in SAMPLE_DATASETS:
-        sample_col, action_col = st.columns([4, 1])
-        sample_col.write(sample_name)
-        if action_col.button("Load", key=f"sample-{sample_name}"):
-            load_sample_into_session(sample_name)
+        with st.container(border=True):
+            icon_col, text_col, action_col = st.columns([0.8, 4, 1.2])
+
+            with icon_col:
+                st.markdown(":material/database:")
+
+            with text_col:
+                st.markdown(f"**{sample_name}**")
+                st.caption("Click load to open this sample dataset in the workspace")
+
+            with action_col:
+                st.write("")
+                if st.button("Load", key=f"sample-{sample_name}", type="primary"):
+                    load_sample_into_session(sample_name)

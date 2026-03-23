@@ -18,7 +18,6 @@ SAMPLE_DATASETS = {
 
 @st.cache_data(show_spinner=False)
 def load_uploaded_bytes(file_bytes: bytes, extension: str) -> pd.DataFrame:
-    """Read an uploaded file from raw bytes so Streamlit can cache the parsed dataframe."""
     buffer = BytesIO(file_bytes)
     if extension == "csv":
         return pd.read_csv(buffer)
@@ -31,12 +30,10 @@ def load_uploaded_bytes(file_bytes: bytes, extension: str) -> pd.DataFrame:
 
 @st.cache_data(show_spinner=False)
 def load_sample_dataset(path: str) -> pd.DataFrame:
-    """Load one of the bundled sample CSV files."""
     return pd.read_csv(path)
 
 
 def load_sample_into_session(name: str) -> None:
-    """Push a bundled sample dataset into the shared session store."""
     df = load_sample_dataset(str(SAMPLE_DATASETS[name]))
     set_data(df, source_name=name, source_kind="sample")
     st.success(f"Loaded sample dataset: {name}")
