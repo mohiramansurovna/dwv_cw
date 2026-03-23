@@ -6,6 +6,7 @@ import streamlit as st
 
 
 def infer_column_groups(df: pd.DataFrame) -> dict[str, list[str]]:
+    """Split columns into numeric, categorical, and datetime buckets for the UI."""
     return {
         "numeric": df.select_dtypes(include=np.number).columns.tolist(),
         "categorical": df.select_dtypes(
@@ -17,6 +18,7 @@ def infer_column_groups(df: pd.DataFrame) -> dict[str, list[str]]:
 
 @st.cache_data(show_spinner=False)
 def profile_dataframe(df: pd.DataFrame) -> dict[str, pd.DataFrame | int]:
+    """Compute reusable profiling tables shown across upload and export pages."""
     groups = infer_column_groups(df)
 
     dtypes_df = (

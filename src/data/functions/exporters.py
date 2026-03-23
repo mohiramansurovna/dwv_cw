@@ -7,6 +7,7 @@ import pandas as pd
 
 
 def make_json_safe(value):
+    """Convert nested pandas/numpy values into plain JSON-friendly Python values."""
     if isinstance(value, dict):
         return {str(key): make_json_safe(item) for key, item in value.items()}
     if isinstance(value, (list, tuple, set)):
@@ -24,6 +25,7 @@ def make_json_safe(value):
 
 
 def report_to_markdown(report: dict) -> str:
+    """Render the export report as a lightweight human-readable Markdown file."""
     report = make_json_safe(report)
     lines = [
         "# Transformation Report",
@@ -56,14 +58,17 @@ def report_to_markdown(report: dict) -> str:
 
 
 def json_to_bytes(payload: dict | list) -> bytes:
+    """Encode a dict/list payload as downloadable UTF-8 JSON bytes."""
     return json.dumps(make_json_safe(payload), indent=2).encode("utf-8")
 
 
 def text_to_bytes(payload: str) -> bytes:
+    """Encode plain text as UTF-8 bytes for download buttons."""
     return payload.encode("utf-8")
 
 
 def dataframe_to_excel_bytes(df: pd.DataFrame, sheet_name: str = "data") -> bytes:
+    """Create a downloadable Excel workbook in memory from a dataframe."""
     buffer = BytesIO()
     with pd.ExcelWriter(buffer, engine="openpyxl") as writer:
         df.to_excel(writer, index=False, sheet_name=sheet_name)

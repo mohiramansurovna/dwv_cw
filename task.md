@@ -15,7 +15,7 @@ App must support repeatable workflows: the same sequence of operations should be
 
 ### Upload:
 
-CSV / Excel / JSON → connect to Sheets: 
+CSV / Excel / JSON: 
 
 - ≥ 1,000 rows
 - ≥ 8 columns

@@ -8,12 +8,14 @@ import pandas as pd
 
 
 def drop_rows_with_missing(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
+    """Remove rows where any of the selected columns is null."""
     return df.dropna(subset=columns).copy()
 
 
 def drop_columns_by_missing_threshold(
     df: pd.DataFrame, threshold_pct: float
 ) -> tuple[pd.DataFrame, list[str]]:
+    """Remove columns whose missing-value percentage is above the chosen cutoff."""
     missing_pct = df.isna().mean() * 100
     columns_to_drop = missing_pct[missing_pct >= threshold_pct].index.tolist()
     return df.drop(columns=columns_to_drop).copy(), columns_to_drop
@@ -25,6 +27,7 @@ def fill_missing_values(
     strategy: str,
     constant_value: str | None = None,
 ) -> pd.DataFrame:
+    """Fill nulls in the selected columns using the strategy chosen in the UI."""
     new_df = df.copy()
 
     for column in columns:
@@ -50,6 +53,7 @@ def fill_missing_values(
 
 
 def detect_duplicates(df: pd.DataFrame, subset: list[str] | None = None) -> pd.DataFrame:
+    """Return all rows that belong to a duplicate group."""
     subset = subset or None
     mask = df.duplicated(subset=subset, keep=False)
     return df.loc[mask].copy()
@@ -60,11 +64,13 @@ def remove_duplicates(
     subset: list[str] | None = None,
     keep: str = "first",
 ) -> pd.DataFrame:
+    """Drop duplicate rows, optionally using only a subset of key columns."""
     subset = subset or None
     return df.drop_duplicates(subset=subset, keep=keep).copy()
 
 
 def _clean_dirty_numeric(series: pd.Series) -> pd.Series:
+    """Strip common currency/formatting characters before numeric conversion."""
     cleaned = (
         series.astype("string")
         .str.replace(r"[\$,£€,%]", "", regex=True)
@@ -81,6 +87,7 @@ def convert_column_type(
     target_type: str,
     datetime_format: str | None = None,
 ) -> pd.DataFrame:
+    """Convert one column to numeric, categorical, or datetime form."""
     new_df = df.copy()
 
     if target_type == "numeric":
@@ -102,6 +109,7 @@ def standardize_text(
     trim_whitespace: bool = True,
     case_style: str = "unchanged",
 ) -> pd.DataFrame:
+    """Normalize text casing and whitespace in categorical columns."""
     new_df = df.copy()
 
     for column in columns:
@@ -125,6 +133,7 @@ def apply_category_mapping(
     mapping: dict[str, str],
     unmatched_to_other: bool = False,
 ) -> pd.DataFrame:
+    """Replace category labels using the mapping editor values from the UI."""
     new_df = df.copy()
     original = new_df[column].copy()
     mapped = original.map(mapping)
@@ -145,6 +154,7 @@ def group_rare_categories(
     column: str,
     threshold_pct: float,
 ) -> tuple[pd.DataFrame, list[str]]:
+    """Collapse infrequent category values into a shared 'Other' bucket."""
     new_df = df.copy()
     frequencies = new_df[column].value_counts(normalize=True, dropna=True) * 100
     rare_categories = frequencies[frequencies < threshold_pct].index.tolist()
@@ -153,6 +163,7 @@ def group_rare_categories(
 
 
 def one_hot_encode(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
+    """Expand categorical columns into dummy/indicator columns."""
     return pd.get_dummies(df, columns=columns, dummy_na=False).copy()
 
 
@@ -162,6 +173,7 @@ def summarize_outliers(
     method: str = "iqr",
     z_threshold: float = 3.0,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Build an outlier summary table plus a row mask for later actions."""
     summary_rows: list[dict[str, object]] = []
     mask_df = pd.DataFrame(index=df.index)
 
@@ -205,6 +217,7 @@ def cap_outliers(
     method: str = "iqr",
     z_threshold: float = 3.0,
 ) -> tuple[pd.DataFrame, dict[str, int]]:
+    """Winsorize outlier values by clipping them to computed lower/upper bounds."""
     summary_df, _ = summarize_outliers(df, columns, method=method, z_threshold=z_threshold)
     bounds = summary_df.set_index("column")[["lower_bound", "upper_bound"]].to_dict("index")
 
@@ -230,6 +243,7 @@ def remove_outlier_rows(
     method: str = "iqr",
     z_threshold: float = 3.0,
 ) -> tuple[pd.DataFrame, int]:
+    """Drop rows that contain at least one outlier in the selected columns."""
     _, mask_df = summarize_outliers(df, columns, method=method, z_threshold=z_threshold)
     rows_to_remove = mask_df.any(axis=1)
     removed_count = int(rows_to_remove.sum())
@@ -237,6 +251,7 @@ def remove_outlier_rows(
 
 
 def scale_numeric(df: pd.DataFrame, columns: list[str], method: str) -> pd.DataFrame:
+    """Apply min-max or z-score scaling to the chosen numeric columns."""
     new_df = df.copy()
     for column in columns:
         series = pd.to_numeric(new_df[column], errors="coerce")
@@ -252,14 +267,17 @@ def scale_numeric(df: pd.DataFrame, columns: list[str], method: str) -> pd.DataF
 
 
 def rename_column(df: pd.DataFrame, old_name: str, new_name: str) -> pd.DataFrame:
+    """Rename a single column."""
     return df.rename(columns={old_name: new_name}).copy()
 
 
 def drop_columns(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
+    """Remove the selected columns from the working dataframe."""
     return df.drop(columns=columns).copy()
 
 
 def _safe_identifier(column_name: str) -> str:
+    """Turn any column name into a Python-safe alias for formula evaluation."""
     identifier = re.sub(r"\W+", "_", column_name).strip("_") or "column"
     if identifier[0].isdigit():
         identifier = f"col_{identifier}"
@@ -267,6 +285,7 @@ def _safe_identifier(column_name: str) -> str:
 
 
 def create_formula_column(df: pd.DataFrame, new_column: str, formula: str) -> pd.DataFrame:
+    """Evaluate a limited Python expression and store the result as a new column."""
     new_df = df.copy()
     env: dict[str, object] = {
         "np": np,
@@ -299,6 +318,7 @@ def bin_numeric_column(
     bins: int,
     method: str,
 ) -> pd.DataFrame:
+    """Bucket a numeric column into equal-width or quantile-based bins."""
     new_df = df.copy()
     series = pd.to_numeric(new_df[source_column], errors="coerce")
     if method == "equal_width":
@@ -314,6 +334,7 @@ def validate_numeric_range(
     min_value: float | None = None,
     max_value: float | None = None,
 ) -> pd.DataFrame:
+    """Return rows whose numeric values fall outside the allowed range."""
     series = pd.to_numeric(df[column], errors="coerce")
     mask = pd.Series(False, index=df.index)
     if min_value is not None:
@@ -333,6 +354,7 @@ def validate_allowed_categories(
     column: str,
     allowed_values: list[str],
 ) -> pd.DataFrame:
+    """Return rows whose category value is not in the allowed list."""
     mask = ~df[column].isin(allowed_values) & df[column].notna()
     violations = df.loc[mask, [column]].copy()
     violations.insert(0, "row_index", violations.index)
@@ -342,6 +364,7 @@ def validate_allowed_categories(
 
 
 def validate_non_null(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
+    """Collect rows that violate non-null rules for the selected columns."""
     frames: list[pd.DataFrame] = []
     for column in columns:
         mask = df[column].isna()
@@ -356,10 +379,12 @@ def validate_non_null(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
 
 
 def dataframe_to_csv_bytes(df: pd.DataFrame) -> bytes:
+    """Serialize a dataframe into CSV bytes for download buttons."""
     return df.to_csv(index=False).encode("utf-8")
 
 
 def dataframe_to_excel_bytes(df: pd.DataFrame) -> bytes:
+    """Serialize a dataframe into an in-memory Excel file for download buttons."""
     buffer = BytesIO()
     with pd.ExcelWriter(buffer, engine="openpyxl") as writer:
         df.to_excel(writer, index=False, sheet_name="cleaned_data")
