@@ -14,12 +14,12 @@ from src.data.functions.store import (
 
 
 def render_history_panel_content() -> None:
-    """Show the transformation log entries in reverse chronological order."""
-    st.subheader("Transformation Log")
+    """showing changes history"""
+    st.subheader("History")
 
     log = get_transform_log()
     if not log:
-        st.info("No transformations recorded yet.")
+        st.caption("No changes yet")
         return
 
     st.caption(f"{len(log)} step(s) recorded")
@@ -46,8 +46,9 @@ def render_workspace_panel_content() -> None:
         rows_col, cols_col = st.columns(2)
         rows_col.metric("Rows", f"{df.shape[0]:,}")
         cols_col.metric("Cols", df.shape[1])
-    else:
-        st.info("Load a dataset to enable workspace actions.")
+
+    st.divider()
+    render_history_panel_content()
 
     undo_clicked = st.button(
         "Undo last step",
@@ -79,5 +80,3 @@ def render_workspace_panel_content() -> None:
         st.success("Session cleared.")
         st.rerun()
 
-    st.divider()
-    render_history_panel_content()
