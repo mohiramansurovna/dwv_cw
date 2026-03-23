@@ -38,17 +38,17 @@ def render_upload_tab() -> None:
 
 def render_sample_data_tab() -> None:
     for sample_name in SAMPLE_DATASETS:
-        with st.container(border=True):
-            icon_col, text_col, action_col = st.columns([0.8, 4, 1.2])
-
-            with icon_col:
-                st.markdown(":material/database:")
-
-            with text_col:
-                st.markdown(f"**{sample_name}**")
-                st.caption("Click load to open this sample dataset in the workspace")
-
-            with action_col:
-                st.write("")
-                if st.button("Load", key=f"sample-{sample_name}", type="primary"):
+        with st.container(border=True, height=100, gap=None):
+            col1, col2, col3 = st.columns([0.6, 5, 1])
+            with col1:
+                st.markdown("## :material/database:")
+            with col2:
+                st.write(f"**{sample_name}**")
+                st.caption("Sample dataset")
+            with col3:
+                if st.button(
+                    "Load",
+                    key=f"sample-{sample_name}",
+                    type="secondary"
+                ):
                     load_sample_into_session(sample_name)
