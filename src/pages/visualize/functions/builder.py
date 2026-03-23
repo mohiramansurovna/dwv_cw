@@ -19,37 +19,54 @@ def render_visualization_builder(df: pd.DataFrame) -> None:
     x_candidates = df.columns.tolist()
     y_candidates = numeric_columns
 
-    with st.expander("Filters", expanded=True):
-        category_filter_column = st.selectbox(
-            "Category filter column",
-            options=["None"] + categorical_columns,
-        )
-        category_filter_column = None if category_filter_column == "None" else category_filter_column
-        category_values: list[str] = []
-        if category_filter_column:
-            values = sorted(df[category_filter_column].dropna().astype(str).unique().tolist())
-            category_values = st.multiselect(
-                "Category values",
-                options=values,
-                default=values[: min(5, len(values))],
-            )
 
-        numeric_filter_column = st.selectbox(
-            "Numeric filter column",
-            options=["None"] + numeric_columns,
-        )
-        numeric_filter_column = None if numeric_filter_column == "None" else numeric_filter_column
-        numeric_range = None
-        if numeric_filter_column:
-            series = pd.to_numeric(df[numeric_filter_column], errors="coerce").dropna()
-            if not series.empty:
-                numeric_range = st.slider(
-                    "Numeric range",
-                    min_value=float(series.min()),
-                    max_value=float(series.max()),
-                    value=(float(series.min()), float(series.max())),
+    with st.container(border=True):
+        col1, col2 = st.columns(2)
+
+        # --- LEFT: Category Filter ---
+        with col1:
+            st.markdown("**Category Filter**")
+
+            category_filter_column = st.selectbox(
+                "Column",
+                options=["None"] + categorical_columns,
+                key="cat_col"
+            )
+            category_filter_column = None if category_filter_column == "None" else category_filter_column
+
+            category_values = []
+            if category_filter_column:
+                values = sorted(df[category_filter_column].dropna().astype(str).unique().tolist())
+                category_values = st.multiselect(
+                    "Values",
+                    options=values,
+                    default=values[: min(5, len(values))],
+                    key="cat_vals"
                 )
 
+        # --- RIGHT: Numeric Filter ---
+        with col2:
+            st.markdown("**Numeric Filter**")
+
+            numeric_filter_column = st.selectbox(
+                "Column",
+                options=["None"] + numeric_columns,
+                key="num_col"
+            )
+            numeric_filter_column = None if numeric_filter_column == "None" else numeric_filter_column
+
+            numeric_range = None
+            if numeric_filter_column:
+                series = pd.to_numeric(df[numeric_filter_column], errors="coerce").dropna()
+                if not series.empty:
+                    numeric_range = st.slider(
+                        "Range",
+                        min_value=float(series.min()),
+                        max_value=float(series.max()),
+                        value=(float(series.min()), float(series.max())),
+                        key="num_range"
+                    )
+                    
     filtered_df = apply_filters(
         df,
         category_filter_column,

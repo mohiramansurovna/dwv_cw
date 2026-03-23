@@ -10,23 +10,21 @@ from src.data.ui import render_workspace_panel
 from src.pages.visualize.functions.builder import render_visualization_builder
 
 
-VISUALIZE_CSS_PATH = Path(__file__).with_name("visualize.css")
 
 
 def render_visualize_page() -> None:
     """Render the chart builder, filter controls, and saved chart definitions."""
-    apply_css(VISUALIZE_CSS_PATH)
     left, right = st.columns([3.2, 1.2])
     df = get_current_data()
 
     with left:
+
         st.markdown(
             """
-            <section class="page-hero visualize-hero">
-                <p class="page-hero__eyebrow">Page C</p>
-                <h1 class="page-hero__title">Visualization Builder</h1>
-                <p class="page-hero__subtitle">
-                    Build matplotlib charts from the cleaned working dataset and save chart definitions for export.
+            <section >
+                <h1>Visualization Builder</h1>
+                <p >
+                    Visualize ur data and save them as images to the report
                 </p>
             </section>
             """,
