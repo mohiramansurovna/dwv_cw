@@ -1,0 +1,1201 @@
+order_id,order_date,region,segment,ship_mode,product_category,sales_amount,quantity,discount_pct,customer_rating,sales_text
+ORD-10001,2024-02-02,south,Corporate,Express,Chair,120.73,2,5,2,$120.73
+ORD-10002,2024-03-03,East ,Home Office,Same Day,Desk,121.46,3,10,3,$121.46
+ORD-10003,2024-04-04,west,SMB,Standard,Phone,122.19,4,15,4,$122.19
+ORD-10004,2024-05-05,Central,Consumer,Express,Monitor,122.92,5,20,5,$122.92
+ORD-10005,2024-06-06,North,Corporate,Same Day,Printer,123.65,6,0,1,$123.65
+ORD-10006,2024-07-07,south,Home Office,Standard,Laptop,124.38,7,5,2,$124.38
+ORD-10007,2024-08-08,East ,SMB,Express,Chair,125.11,8,10,3,$125.11
+ORD-10008,2024-09-09,west,Consumer,Same Day,Desk,125.84,1,15,4,$125.84
+ORD-10009,2024-10-10,Central,Corporate,Standard,Phone,126.57,2,20,5,$126.57
+ORD-10010,2024-11-11,North,Home Office,Express,Monitor,127.30,3,0,1,$127.30
+ORD-10011,2024-12-12,south,SMB,Same Day,Printer,128.03,4,5,2,$128.03
+ORD-10012,2024-01-13,East ,Consumer,Standard,Laptop,128.76,5,10,3,$128.76
+ORD-10013,2024-02-14,west,Corporate,Express,Chair,129.49,6,15,4,$129.49
+ORD-10014,2024-03-15,Central,Home Office,Same Day,Desk,130.22,7,20,5,$130.22
+ORD-10015,2024-04-16,North,SMB,Standard,Phone,130.95,8,0,1,$130.95
+ORD-10016,2024-05-17,south,Consumer,Express,Monitor,131.68,1,5,2,$131.68
+ORD-10017,2024-06-18,East ,Corporate,Same Day,Printer,132.41,2,,3,$132.41
+ORD-10018,2024-07-19,west,Home Office,Standard,Laptop,133.14,3,15,4,$133.14
+ORD-10019,2024-08-20,Central,SMB,Express,Chair,133.87,4,20,,$133.87
+ORD-10020,2024-09-21,North,Consumer,Same Day,Desk,134.60,5,0,1,$134.60
+ORD-10021,2024-10-22,south,Corporate,Standard,Phone,135.33,6,5,2,$135.33
+ORD-10022,2024-11-23,East ,Home Office,Express,Monitor,136.06,7,10,3,$136.06
+ORD-10023,2024-12-24,,SMB,Same Day,Printer,136.79,8,15,4,$136.79
+ORD-10024,2024-01-25,Central,Consumer,Standard,Laptop,137.52,1,20,5,$137.52
+ORD-10025,2024-02-26,North,Corporate,Express,Chair,138.25,2,0,1,$138.25
+ORD-10026,2024-03-27,south,Home Office,Same Day,Desk,138.98,3,5,2,$138.98
+ORD-10027,2024-04-28,East ,SMB,Standard,Phone,139.71,4,10,3,$139.71
+ORD-10028,2024-05-01,west,Consumer,Express,Monitor,140.44,5,15,4,$140.44
+ORD-10029,2024-06-02,Central,Corporate,Same Day,Printer,141.17,6,20,5,$141.17
+ORD-10030,2024-07-03,North,Home Office,Standard,Laptop,141.90,7,0,1,$141.90
+ORD-10031,2024-08-04,south, consumer ,Express,Chair,142.63,8,5,2,$142.63
+ORD-10032,2024-09-05,East ,Consumer,Same Day,Desk,143.36,1,10,3,$143.36
+ORD-10033,2024-10-06,west,Corporate,Standard,Phone,144.09,2,15,4,$144.09
+ORD-10034,2024-11-07,Central,Home Office,Express,Monitor,144.82,3,,5,$144.82
+ORD-10035,2024-12-08,North,SMB,Same Day,Printer,145.55,4,0,1,$145.55
+ORD-10036,2024-01-09,south,Consumer,Standard,Laptop,146.28,5,5,2,$146.28
+ORD-10037,2024-02-10,East ,Corporate,Express,Chair,147.01,6,10,3,$147.01
+ORD-10038,2024-03-11,west,Home Office,Same Day,Desk,147.74,7,15,,$147.74
+ORD-10039,2024-04-12,Central,SMB,Standard,Phone,148.47,8,20,5,$148.47
+ORD-10040,2024-05-13,North,Consumer,Express,Monitor,149.20,1,0,1,$149.20
+ORD-10041,2024-06-14,south,Corporate,Same Day,Printer,149.93,2,5,2,$149.93
+ORD-10042,2024-07-15,East ,Home Office,Standard,Laptop,150.66,3,10,3,$150.66
+ORD-10043,2024-08-16,west,SMB,Express,Chair,151.39,4,15,4,$151.39
+ORD-10044,2024-09-17,Central,Consumer,Same Day,Desk,152.12,5,20,5,$152.12
+ORD-10045,2024-10-18,North,Corporate,Standard,Phone,152.85,6,0,1,$152.85
+ORD-10046,2024-11-19,,Home Office,Express,Monitor,153.58,7,5,2,$153.58
+ORD-10047,2024-12-20,East ,SMB,Same Day,Printer,154.31,8,10,3,$154.31
+ORD-10048,2024-01-21,west,Consumer,Standard,Laptop,155.04,1,15,4,$155.04
+ORD-10049,2024-02-22,Central,Corporate,Express,Chair,155.77,2,20,5,$155.77
+ORD-10050,2024-03-23,North,Home Office,Same Day,Desk,156.50,3,0,1,$156.50
+ORD-10051,2024-04-24,south,SMB,Standard,Phone,157.23,4,,2,$157.23
+ORD-10052,2024-05-25,East ,Consumer,Express,Monitor,157.96,5,10,3,$157.96
+ORD-10053,2024-06-26,west,Corporate,Same Day,Printer,158.69,6,15,4,$158.69
+ORD-10054,2024-07-27,Central,Home Office,Standard,Laptop,159.42,7,20,5,$159.42
+ORD-10055,2024-08-28,North,SMB,Express,Chair,160.15,8,0,1,$160.15
+ORD-10056,2024-09-01,south,Consumer,Same Day,Desk,160.88,1,5,2,$160.88
+ORD-10057,2024-10-02,East ,Corporate,Standard,Phone,161.61,2,10,,$161.61
+ORD-10058,2024-11-03,west,Home Office,Express,Monitor,162.34,3,15,4,$162.34
+ORD-10059,2024-12-04,Central,SMB,Same Day,Printer,163.07,4,20,5,$163.07
+ORD-10060,2024-01-05,North,Consumer,Standard,Laptop,163.80,5,0,1,$163.80
+ORD-10061,2024-02-06,south,Corporate,Express,Chair,164.53,6,5,2,$164.53
+ORD-10062,2024-03-07,East , consumer ,Same Day,Desk,165.26,7,10,3,$165.26
+ORD-10063,2024-04-08,west,SMB,Standard,Phone,165.99,8,15,4,$165.99
+ORD-10064,2024-05-09,Central,Consumer,Express,Monitor,166.72,1,20,5,$166.72
+ORD-10065,2024-06-10,North,Corporate,Same Day,Printer,167.45,2,0,1,$167.45
+ORD-10066,2024-07-11,south,Home Office,Standard,Laptop,168.18,3,5,2,$168.18
+ORD-10067,2024-08-12,East ,SMB,Express,Chair,844.55,4,10,3,$844.55
+ORD-10068,2024-09-13,west,Consumer,Same Day,Desk,169.64,5,,4,$169.64
+ORD-10069,2024-10-14,,Corporate,Standard,Phone,170.37,6,20,5,$170.37
+ORD-10070,2024-11-15,North,Home Office,Express,Monitor,171.10,7,0,1,$171.10
+ORD-10071,2024-12-16,south,SMB,Same Day,Printer,171.83,8,5,2,$171.83
+ORD-10072,2024-01-17,East ,Consumer,Standard,Laptop,172.56,1,10,3,$172.56
+ORD-10073,2024-02-18,west,Corporate,Express,Chair,173.29,2,15,4,$173.29
+ORD-10074,2024-03-19,Central,Home Office,Same Day,Desk,174.02,3,20,5,$174.02
+ORD-10075,2024-04-20,North,SMB,Standard,Phone,174.75,4,0,1,$174.75
+ORD-10076,2024-05-21,south,Consumer,Express,Monitor,175.48,5,5,,$175.48
+ORD-10077,2024-06-22,East ,Corporate,Same Day,Printer,176.21,6,10,3,$176.21
+ORD-10078,2024-07-23,west,Home Office,Standard,Laptop,176.94,7,15,4,$176.94
+ORD-10079,2024-08-24,Central,SMB,Express,Chair,177.67,8,20,5,$177.67
+ORD-10080,2024-09-25,North,Consumer,Same Day,Desk,178.40,1,0,1,$178.40
+ORD-10081,2024-10-26,south,Corporate,Standard,Phone,179.13,2,5,2,$179.13
+ORD-10082,2024-11-27,East ,Home Office,Express,Monitor,179.86,3,10,3,$179.86
+ORD-10083,2024-12-28,west,SMB,Same Day,Printer,180.59,4,15,4,$180.59
+ORD-10084,2024-01-01,Central,Consumer,Standard,Laptop,181.32,5,20,5,$181.32
+ORD-10085,2024-02-02,North,Corporate,Express,Chair,182.05,6,,1,$182.05
+ORD-10086,2024-03-03,south,Home Office,Same Day,Desk,182.78,7,5,2,$182.78
+ORD-10087,2024-04-04,East ,SMB,Standard,Phone,183.51,8,10,3,$183.51
+ORD-10088,2024-05-05,west,Consumer,Express,Monitor,184.24,1,15,4,$184.24
+ORD-10089,2024-06-06,Central,Corporate,Same Day,Printer,184.97,2,20,5,$184.97
+ORD-10090,2024-07-07,North,Home Office,Standard,Laptop,185.70,3,0,1,$185.70
+ORD-10091,2024-08-08,south,SMB,Express,Chair,186.43,4,5,2,$186.43
+ORD-10092,2024-09-09,,Consumer,Same Day,Desk,187.16,5,10,3,$187.16
+ORD-10093,2024-10-10,west, consumer ,Standard,Phone,187.89,6,15,4,$187.89
+ORD-10094,2024-11-11,Central,Home Office,Express,Monitor,188.62,7,20,5,$188.62
+ORD-10095,2024-12-12,North,SMB,Same Day,Printer,189.35,8,0,,$189.35
+ORD-10096,2024-01-13,south,Consumer,Standard,Laptop,190.08,1,5,2,$190.08
+ORD-10097,2024-02-14,East ,Corporate,Express,Chair,190.81,2,10,3,$190.81
+ORD-10098,2024-03-15,west,Home Office,Same Day,Desk,191.54,3,15,4,$191.54
+ORD-10099,2024-04-16,Central,SMB,Standard,Phone,192.27,4,20,5,$192.27
+ORD-10100,2024-05-17,North,Consumer,Express,Monitor,193.00,5,0,1,$193.00
+ORD-10101,2024-06-18,south,Corporate,Same Day,Printer,193.73,6,5,2,$193.73
+ORD-10102,2024-07-19,East ,Home Office,Standard,Laptop,194.46,7,,3,$194.46
+ORD-10103,2024-08-20,west,SMB,Express,Chair,195.19,8,15,4,$195.19
+ORD-10104,2024-09-21,Central,Consumer,Same Day,Desk,195.92,1,20,5,$195.92
+ORD-10105,2024-10-22,North,Corporate,Standard,Phone,196.65,2,0,1,$196.65
+ORD-10106,2024-11-23,south,Home Office,Express,Monitor,197.38,3,5,2,$197.38
+ORD-10107,2024-12-24,East ,SMB,Same Day,Printer,198.11,4,10,3,$198.11
+ORD-10108,2024-01-25,west,Consumer,Standard,Laptop,198.84,5,15,4,$198.84
+ORD-10109,2024-02-26,Central,Corporate,Express,Chair,199.57,6,20,5,$199.57
+ORD-10110,2024-03-27,North,Home Office,Same Day,Desk,200.30,7,0,1,$200.30
+ORD-10111,2024-04-28,south,SMB,Standard,Phone,201.03,8,5,2,$201.03
+ORD-10112,2024-05-01,East ,Consumer,Express,Monitor,201.76,1,10,3,$201.76
+ORD-10113,2024-06-02,west,Corporate,Same Day,Printer,202.49,2,15,4,$202.49
+ORD-10114,2024-07-03,Central,Home Office,Standard,Laptop,203.22,3,20,,$203.22
+ORD-10115,2024-08-04,,SMB,Express,Chair,203.95,4,0,1,$203.95
+ORD-10116,2024-09-05,south,Consumer,Same Day,Desk,204.68,5,5,2,$204.68
+ORD-10117,2024-10-06,East ,Corporate,Standard,Phone,205.41,6,10,3,$205.41
+ORD-10118,2024-11-07,west,Home Office,Express,Monitor,206.14,7,15,4,$206.14
+ORD-10119,2024-12-08,Central,SMB,Same Day,Printer,206.87,8,,5,$206.87
+ORD-10120,2024-01-09,North,Consumer,Standard,Laptop,207.60,1,0,1,$207.60
+ORD-10121,2024-02-10,south,Corporate,Express,Chair,208.33,2,5,2,$208.33
+ORD-10122,2024-03-11,East ,Home Office,Same Day,Desk,209.06,3,10,3,$209.06
+ORD-10123,2024-04-12,west,SMB,Standard,Phone,209.79,4,15,4,$209.79
+ORD-10124,2024-05-13,Central, consumer ,Express,Monitor,210.52,5,20,5,$210.52
+ORD-10125,2024-06-14,North,Corporate,Same Day,Printer,211.25,6,0,1,$211.25
+ORD-10126,2024-07-15,south,Home Office,Standard,Laptop,211.98,7,5,2,$211.98
+ORD-10127,2024-08-16,East ,SMB,Express,Chair,212.71,8,10,3,$212.71
+ORD-10128,2024-09-17,west,Consumer,Same Day,Desk,213.44,1,15,4,$213.44
+ORD-10129,2024-10-18,Central,Corporate,Standard,Phone,214.17,2,20,5,$214.17
+ORD-10130,2024-11-19,North,Home Office,Express,Monitor,214.90,3,0,1,$214.90
+ORD-10131,2024-12-20,south,SMB,Same Day,Printer,215.63,4,5,2,$215.63
+ORD-10132,2024-01-21,East ,Consumer,Standard,Laptop,216.36,5,10,3,$216.36
+ORD-10133,2024-02-22,west,Corporate,Express,Chair,217.09,6,15,,$217.09
+ORD-10134,2024-03-23,Central,Home Office,Same Day,Desk,1089.10,7,20,5,$1089.10
+ORD-10135,2024-04-24,North,SMB,Standard,Phone,218.55,8,0,1,$218.55
+ORD-10136,2024-05-25,south,Consumer,Express,Monitor,219.28,1,,2,$219.28
+ORD-10137,2024-06-26,East ,Corporate,Same Day,Printer,220.01,2,10,3,$220.01
+ORD-10138,2024-07-27,,Home Office,Standard,Laptop,220.74,3,15,4,$220.74
+ORD-10139,2024-08-28,Central,SMB,Express,Chair,221.47,4,20,5,$221.47
+ORD-10140,2024-09-01,North,Consumer,Same Day,Desk,222.20,5,0,1,$222.20
+ORD-10141,2024-10-02,south,Corporate,Standard,Phone,222.93,6,5,2,$222.93
+ORD-10142,2024-11-03,East ,Home Office,Express,Monitor,223.66,7,10,3,$223.66
+ORD-10143,2024-12-04,west,SMB,Same Day,Printer,224.39,8,15,4,$224.39
+ORD-10144,2024-01-05,Central,Consumer,Standard,Laptop,225.12,1,20,5,$225.12
+ORD-10145,2024-02-06,North,Corporate,Express,Chair,225.85,2,0,1,$225.85
+ORD-10146,2024-03-07,south,Home Office,Same Day,Desk,226.58,3,5,2,$226.58
+ORD-10147,2024-04-08,East ,SMB,Standard,Phone,227.31,4,10,3,$227.31
+ORD-10148,2024-05-09,west,Consumer,Express,Monitor,228.04,5,15,4,$228.04
+ORD-10149,2024-06-10,Central,Corporate,Same Day,Printer,228.77,6,20,5,$228.77
+ORD-10150,2024-07-11,North,Home Office,Standard,Laptop,229.50,7,0,1,$229.50
+ORD-10151,2024-08-12,south,SMB,Express,Chair,230.23,8,5,2,$230.23
+ORD-10152,2024-09-13,East ,Consumer,Same Day,Desk,230.96,1,10,,$230.96
+ORD-10153,2024-10-14,west,Corporate,Standard,Phone,231.69,2,,4,$231.69
+ORD-10154,2024-11-15,Central,Home Office,Express,Monitor,232.42,3,20,5,$232.42
+ORD-10155,2024-12-16,North, consumer ,Same Day,Printer,233.15,4,0,1,$233.15
+ORD-10156,2024-01-17,south,Consumer,Standard,Laptop,233.88,5,5,2,$233.88
+ORD-10157,2024-02-18,East ,Corporate,Express,Chair,234.61,6,10,3,$234.61
+ORD-10158,2024-03-19,west,Home Office,Same Day,Desk,235.34,7,15,4,$235.34
+ORD-10159,2024-04-20,Central,SMB,Standard,Phone,236.07,8,20,5,$236.07
+ORD-10160,2024-05-21,North,Consumer,Express,Monitor,236.80,1,0,1,$236.80
+ORD-10161,2024-06-22,,Corporate,Same Day,Printer,237.53,2,5,2,$237.53
+ORD-10162,2024-07-23,East ,Home Office,Standard,Laptop,238.26,3,10,3,$238.26
+ORD-10163,2024-08-24,west,SMB,Express,Chair,238.99,4,15,4,$238.99
+ORD-10164,2024-09-25,Central,Consumer,Same Day,Desk,239.72,5,20,5,$239.72
+ORD-10165,2024-10-26,North,Corporate,Standard,Phone,240.45,6,0,1,$240.45
+ORD-10166,2024-11-27,south,Home Office,Express,Monitor,241.18,7,5,2,$241.18
+ORD-10167,2024-12-28,East ,SMB,Same Day,Printer,241.91,8,10,3,$241.91
+ORD-10168,2024-01-01,west,Consumer,Standard,Laptop,242.64,1,15,4,$242.64
+ORD-10169,2024-02-02,Central,Corporate,Express,Chair,243.37,2,20,5,$243.37
+ORD-10170,2024-03-03,North,Home Office,Same Day,Desk,244.10,3,,1,$244.10
+ORD-10171,2024-04-04,south,SMB,Standard,Phone,244.83,4,5,,$244.83
+ORD-10172,2024-05-05,East ,Consumer,Express,Monitor,245.56,5,10,3,$245.56
+ORD-10173,2024-06-06,west,Corporate,Same Day,Printer,246.29,6,15,4,$246.29
+ORD-10174,2024-07-07,Central,Home Office,Standard,Laptop,247.02,7,20,5,$247.02
+ORD-10175,2024-08-08,North,SMB,Express,Chair,247.75,8,0,1,$247.75
+ORD-10176,2024-09-09,south,Consumer,Same Day,Desk,248.48,1,5,2,$248.48
+ORD-10177,2024-10-10,East ,Corporate,Standard,Phone,249.21,2,10,3,$249.21
+ORD-10178,2024-11-11,west,Home Office,Express,Monitor,249.94,3,15,4,$249.94
+ORD-10179,2024-12-12,Central,SMB,Same Day,Printer,250.67,4,20,5,$250.67
+ORD-10180,2024-01-13,North,Consumer,Standard,Laptop,251.40,5,0,1,$251.40
+ORD-10181,2024-02-14,south,Corporate,Express,Chair,252.13,6,5,2,$252.13
+ORD-10182,2024-03-15,East ,Home Office,Same Day,Desk,252.86,7,10,3,$252.86
+ORD-10183,2024-04-16,west,SMB,Standard,Phone,253.59,8,15,4,$253.59
+ORD-10184,2024-05-17,,Consumer,Express,Monitor,254.32,1,20,5,$254.32
+ORD-10185,2024-06-18,North,Corporate,Same Day,Printer,255.05,2,0,1,$255.05
+ORD-10186,2024-07-19,south, consumer ,Standard,Laptop,255.78,3,5,2,$255.78
+ORD-10187,2024-08-20,East ,SMB,Express,Chair,256.51,4,,3,$256.51
+ORD-10188,2024-09-21,west,Consumer,Same Day,Desk,257.24,5,15,4,$257.24
+ORD-10189,2024-10-22,Central,Corporate,Standard,Phone,257.97,6,20,5,$257.97
+ORD-10190,2024-11-23,North,Home Office,Express,Monitor,258.70,7,0,,$258.70
+ORD-10191,2024-12-24,south,SMB,Same Day,Printer,259.43,8,5,2,$259.43
+ORD-10192,2024-01-25,East ,Consumer,Standard,Laptop,260.16,1,10,3,$260.16
+ORD-10193,2024-02-26,west,Corporate,Express,Chair,260.89,2,15,4,$260.89
+ORD-10194,2024-03-27,Central,Home Office,Same Day,Desk,261.62,3,20,5,$261.62
+ORD-10195,2024-04-28,North,SMB,Standard,Phone,262.35,4,0,1,$262.35
+ORD-10196,2024-05-01,south,Consumer,Express,Monitor,263.08,5,5,2,$263.08
+ORD-10197,2024-06-02,East ,Corporate,Same Day,Printer,263.81,6,10,3,$263.81
+ORD-10198,2024-07-03,west,Home Office,Standard,Laptop,264.54,7,15,4,$264.54
+ORD-10199,2024-08-04,Central,SMB,Express,Chair,265.27,8,20,5,$265.27
+ORD-10200,2024-09-05,North,Consumer,Same Day,Desk,266.00,1,0,1,$266.00
+ORD-10201,2024-10-06,south,Corporate,Standard,Phone,1333.65,2,5,2,$1333.65
+ORD-10202,2024-11-07,East ,Home Office,Express,Monitor,267.46,3,10,3,$267.46
+ORD-10203,2024-12-08,west,SMB,Same Day,Printer,268.19,4,15,4,$268.19
+ORD-10204,2024-01-09,Central,Consumer,Standard,Laptop,268.92,5,,5,$268.92
+ORD-10205,2024-02-10,North,Corporate,Express,Chair,269.65,6,0,1,$269.65
+ORD-10206,2024-03-11,south,Home Office,Same Day,Desk,270.38,7,5,2,$270.38
+ORD-10207,2024-04-12,,SMB,Standard,Phone,271.11,8,10,3,$271.11
+ORD-10208,2024-05-13,west,Consumer,Express,Monitor,271.84,1,15,4,$271.84
+ORD-10209,2024-06-14,Central,Corporate,Same Day,Printer,272.57,2,20,,$272.57
+ORD-10210,2024-07-15,North,Home Office,Standard,Laptop,273.30,3,0,1,$273.30
+ORD-10211,2024-08-16,south,SMB,Express,Chair,274.03,4,5,2,$274.03
+ORD-10212,2024-09-17,East ,Consumer,Same Day,Desk,274.76,5,10,3,$274.76
+ORD-10213,2024-10-18,west,Corporate,Standard,Phone,275.49,6,15,4,$275.49
+ORD-10214,2024-11-19,Central,Home Office,Express,Monitor,276.22,7,20,5,$276.22
+ORD-10215,2024-12-20,North,SMB,Same Day,Printer,276.95,8,0,1,$276.95
+ORD-10216,2024-01-21,south,Consumer,Standard,Laptop,277.68,1,5,2,$277.68
+ORD-10217,2024-02-22,East , consumer ,Express,Chair,278.41,2,10,3,$278.41
+ORD-10218,2024-03-23,west,Home Office,Same Day,Desk,279.14,3,15,4,$279.14
+ORD-10219,2024-04-24,Central,SMB,Standard,Phone,279.87,4,20,5,$279.87
+ORD-10220,2024-05-25,North,Consumer,Express,Monitor,280.60,5,0,1,$280.60
+ORD-10221,2024-06-26,south,Corporate,Same Day,Printer,281.33,6,,2,$281.33
+ORD-10222,2024-07-27,East ,Home Office,Standard,Laptop,282.06,7,10,3,$282.06
+ORD-10223,2024-08-28,west,SMB,Express,Chair,282.79,8,15,4,$282.79
+ORD-10224,2024-09-01,Central,Consumer,Same Day,Desk,283.52,1,20,5,$283.52
+ORD-10225,2024-10-02,North,Corporate,Standard,Phone,284.25,2,0,1,$284.25
+ORD-10226,2024-11-03,south,Home Office,Express,Monitor,284.98,3,5,2,$284.98
+ORD-10227,2024-12-04,East ,SMB,Same Day,Printer,285.71,4,10,3,$285.71
+ORD-10228,2024-01-05,west,Consumer,Standard,Laptop,286.44,5,15,,$286.44
+ORD-10229,2024-02-06,Central,Corporate,Express,Chair,287.17,6,20,5,$287.17
+ORD-10230,2024-03-07,,Home Office,Same Day,Desk,287.90,7,0,1,$287.90
+ORD-10231,2024-04-08,south,SMB,Standard,Phone,288.63,8,5,2,$288.63
+ORD-10232,2024-05-09,East ,Consumer,Express,Monitor,289.36,1,10,3,$289.36
+ORD-10233,2024-06-10,west,Corporate,Same Day,Printer,290.09,2,15,4,$290.09
+ORD-10234,2024-07-11,Central,Home Office,Standard,Laptop,290.82,3,20,5,$290.82
+ORD-10235,2024-08-12,North,SMB,Express,Chair,291.55,4,0,1,$291.55
+ORD-10236,2024-09-13,south,Consumer,Same Day,Desk,292.28,5,5,2,$292.28
+ORD-10237,2024-10-14,East ,Corporate,Standard,Phone,293.01,6,10,3,$293.01
+ORD-10238,2024-11-15,west,Home Office,Express,Monitor,293.74,7,,4,$293.74
+ORD-10239,2024-12-16,Central,SMB,Same Day,Printer,294.47,8,20,5,$294.47
+ORD-10240,2024-01-17,North,Consumer,Standard,Laptop,295.20,1,0,1,$295.20
+ORD-10241,2024-02-18,south,Corporate,Express,Chair,295.93,2,5,2,$295.93
+ORD-10242,2024-03-19,East ,Home Office,Same Day,Desk,296.66,3,10,3,$296.66
+ORD-10243,2024-04-20,west,SMB,Standard,Phone,297.39,4,15,4,$297.39
+ORD-10244,2024-05-21,Central,Consumer,Express,Monitor,298.12,5,20,5,$298.12
+ORD-10245,2024-06-22,North,Corporate,Same Day,Printer,298.85,6,0,1,$298.85
+ORD-10246,2024-07-23,south,Home Office,Standard,Laptop,299.58,7,5,2,$299.58
+ORD-10247,2024-08-24,East ,SMB,Express,Chair,300.31,8,10,,$300.31
+ORD-10248,2024-09-25,west, consumer ,Same Day,Desk,301.04,1,15,4,$301.04
+ORD-10249,2024-10-26,Central,Corporate,Standard,Phone,301.77,2,20,5,$301.77
+ORD-10250,2024-11-27,North,Home Office,Express,Monitor,302.50,3,0,1,$302.50
+ORD-10251,2024-12-28,south,SMB,Same Day,Printer,303.23,4,5,2,$303.23
+ORD-10252,2024-01-01,East ,Consumer,Standard,Laptop,303.96,5,10,3,$303.96
+ORD-10253,2024-02-02,,Corporate,Express,Chair,304.69,6,15,4,$304.69
+ORD-10254,2024-03-03,Central,Home Office,Same Day,Desk,305.42,7,20,5,$305.42
+ORD-10255,2024-04-04,North,SMB,Standard,Phone,306.15,8,,1,$306.15
+ORD-10256,2024-05-05,south,Consumer,Express,Monitor,306.88,1,5,2,$306.88
+ORD-10257,2024-06-06,East ,Corporate,Same Day,Printer,307.61,2,10,3,$307.61
+ORD-10258,2024-07-07,west,Home Office,Standard,Laptop,308.34,3,15,4,$308.34
+ORD-10259,2024-08-08,Central,SMB,Express,Chair,309.07,4,20,5,$309.07
+ORD-10260,2024-09-09,North,Consumer,Same Day,Desk,309.80,5,0,1,$309.80
+ORD-10261,2024-10-10,south,Corporate,Standard,Phone,310.53,6,5,2,$310.53
+ORD-10262,2024-11-11,East ,Home Office,Express,Monitor,311.26,7,10,3,$311.26
+ORD-10263,2024-12-12,west,SMB,Same Day,Printer,311.99,8,15,4,$311.99
+ORD-10264,2024-01-13,Central,Consumer,Standard,Laptop,312.72,1,20,5,$312.72
+ORD-10265,2024-02-14,North,Corporate,Express,Chair,313.45,2,0,1,$313.45
+ORD-10266,2024-03-15,south,Home Office,Same Day,Desk,314.18,3,5,,$314.18
+ORD-10267,2024-04-16,East ,SMB,Standard,Phone,314.91,4,10,3,$314.91
+ORD-10268,2024-05-17,west,Consumer,Express,Monitor,1578.20,5,15,4,$1578.20
+ORD-10269,2024-06-18,Central,Corporate,Same Day,Printer,316.37,6,20,5,$316.37
+ORD-10270,2024-07-19,North,Home Office,Standard,Laptop,317.10,7,0,1,$317.10
+ORD-10271,2024-08-20,south,SMB,Express,Chair,317.83,8,5,2,$317.83
+ORD-10272,2024-09-21,East ,Consumer,Same Day,Desk,318.56,1,,3,$318.56
+ORD-10273,2024-10-22,west,Corporate,Standard,Phone,319.29,2,15,4,$319.29
+ORD-10274,2024-11-23,Central,Home Office,Express,Monitor,320.02,3,20,5,$320.02
+ORD-10275,2024-12-24,North,SMB,Same Day,Printer,320.75,4,0,1,$320.75
+ORD-10276,2024-01-25,,Consumer,Standard,Laptop,321.48,5,5,2,$321.48
+ORD-10277,2024-02-26,East ,Corporate,Express,Chair,322.21,6,10,3,$322.21
+ORD-10278,2024-03-27,west,Home Office,Same Day,Desk,322.94,7,15,4,$322.94
+ORD-10279,2024-04-28,Central, consumer ,Standard,Phone,323.67,8,20,5,$323.67
+ORD-10280,2024-05-01,North,Consumer,Express,Monitor,324.40,1,0,1,$324.40
+ORD-10281,2024-06-02,south,Corporate,Same Day,Printer,325.13,2,5,2,$325.13
+ORD-10282,2024-07-03,East ,Home Office,Standard,Laptop,325.86,3,10,3,$325.86
+ORD-10283,2024-08-04,west,SMB,Express,Chair,326.59,4,15,4,$326.59
+ORD-10284,2024-09-05,Central,Consumer,Same Day,Desk,327.32,5,20,5,$327.32
+ORD-10285,2024-10-06,North,Corporate,Standard,Phone,328.05,6,0,,$328.05
+ORD-10286,2024-11-07,south,Home Office,Express,Monitor,328.78,7,5,2,$328.78
+ORD-10287,2024-12-08,East ,SMB,Same Day,Printer,329.51,8,10,3,$329.51
+ORD-10288,2024-01-09,west,Consumer,Standard,Laptop,330.24,1,15,4,$330.24
+ORD-10289,2024-02-10,Central,Corporate,Express,Chair,330.97,2,,5,$330.97
+ORD-10290,2024-03-11,North,Home Office,Same Day,Desk,331.70,3,0,1,$331.70
+ORD-10291,2024-04-12,south,SMB,Standard,Phone,332.43,4,5,2,$332.43
+ORD-10292,2024-05-13,East ,Consumer,Express,Monitor,333.16,5,10,3,$333.16
+ORD-10293,2024-06-14,west,Corporate,Same Day,Printer,333.89,6,15,4,$333.89
+ORD-10294,2024-07-15,Central,Home Office,Standard,Laptop,334.62,7,20,5,$334.62
+ORD-10295,2024-08-16,North,SMB,Express,Chair,335.35,8,0,1,$335.35
+ORD-10296,2024-09-17,south,Consumer,Same Day,Desk,336.08,1,5,2,$336.08
+ORD-10297,2024-10-18,East ,Corporate,Standard,Phone,336.81,2,10,3,$336.81
+ORD-10298,2024-11-19,west,Home Office,Express,Monitor,337.54,3,15,4,$337.54
+ORD-10299,2024-12-20,,SMB,Same Day,Printer,338.27,4,20,5,$338.27
+ORD-10300,2024-01-21,North,Consumer,Standard,Laptop,339.00,5,0,1,$339.00
+ORD-10301,2024-02-22,south,Corporate,Express,Chair,339.73,6,5,2,$339.73
+ORD-10302,2024-03-23,East ,Home Office,Same Day,Desk,340.46,7,10,3,$340.46
+ORD-10303,2024-04-24,west,SMB,Standard,Phone,341.19,8,15,4,$341.19
+ORD-10304,2024-05-25,Central,Consumer,Express,Monitor,341.92,1,20,,$341.92
+ORD-10305,2024-06-26,North,Corporate,Same Day,Printer,342.65,2,0,1,$342.65
+ORD-10306,2024-07-27,south,Home Office,Standard,Laptop,343.38,3,,2,$343.38
+ORD-10307,2024-08-28,East ,SMB,Express,Chair,344.11,4,10,3,$344.11
+ORD-10308,2024-09-01,west,Consumer,Same Day,Desk,344.84,5,15,4,$344.84
+ORD-10309,2024-10-02,Central,Corporate,Standard,Phone,345.57,6,20,5,$345.57
+ORD-10310,2024-11-03,North, consumer ,Express,Monitor,346.30,7,0,1,$346.30
+ORD-10311,2024-12-04,south,SMB,Same Day,Printer,347.03,8,5,2,$347.03
+ORD-10312,2024-01-05,East ,Consumer,Standard,Laptop,347.76,1,10,3,$347.76
+ORD-10313,2024-02-06,west,Corporate,Express,Chair,348.49,2,15,4,$348.49
+ORD-10314,2024-03-07,Central,Home Office,Same Day,Desk,349.22,3,20,5,$349.22
+ORD-10315,2024-04-08,North,SMB,Standard,Phone,349.95,4,0,1,$349.95
+ORD-10316,2024-05-09,south,Consumer,Express,Monitor,350.68,5,5,2,$350.68
+ORD-10317,2024-06-10,East ,Corporate,Same Day,Printer,351.41,6,10,3,$351.41
+ORD-10318,2024-07-11,west,Home Office,Standard,Laptop,352.14,7,15,4,$352.14
+ORD-10319,2024-08-12,Central,SMB,Express,Chair,352.87,8,20,5,$352.87
+ORD-10320,2024-09-13,North,Consumer,Same Day,Desk,353.60,1,0,1,$353.60
+ORD-10321,2024-10-14,south,Corporate,Standard,Phone,354.33,2,5,2,$354.33
+ORD-10322,2024-11-15,,Home Office,Express,Monitor,355.06,3,10,3,$355.06
+ORD-10323,2024-12-16,west,SMB,Same Day,Printer,355.79,4,,,$355.79
+ORD-10324,2024-01-17,Central,Consumer,Standard,Laptop,356.52,5,20,5,$356.52
+ORD-10325,2024-02-18,North,Corporate,Express,Chair,357.25,6,0,1,$357.25
+ORD-10326,2024-03-19,south,Home Office,Same Day,Desk,357.98,7,5,2,$357.98
+ORD-10327,2024-04-20,East ,SMB,Standard,Phone,358.71,8,10,3,$358.71
+ORD-10328,2024-05-21,west,Consumer,Express,Monitor,359.44,1,15,4,$359.44
+ORD-10329,2024-06-22,Central,Corporate,Same Day,Printer,360.17,2,20,5,$360.17
+ORD-10330,2024-07-23,North,Home Office,Standard,Laptop,360.90,3,0,1,$360.90
+ORD-10331,2024-08-24,south,SMB,Express,Chair,361.63,4,5,2,$361.63
+ORD-10332,2024-09-25,East ,Consumer,Same Day,Desk,362.36,5,10,3,$362.36
+ORD-10333,2024-10-26,west,Corporate,Standard,Phone,363.09,6,15,4,$363.09
+ORD-10334,2024-11-27,Central,Home Office,Express,Monitor,363.82,7,20,5,$363.82
+ORD-10335,2024-12-28,North,SMB,Same Day,Printer,1822.75,8,0,1,$1822.75
+ORD-10336,2024-01-01,south,Consumer,Standard,Laptop,365.28,1,5,2,$365.28
+ORD-10337,2024-02-02,East ,Corporate,Express,Chair,366.01,2,10,3,$366.01
+ORD-10338,2024-03-03,west,Home Office,Same Day,Desk,366.74,3,15,4,$366.74
+ORD-10339,2024-04-04,Central,SMB,Standard,Phone,367.47,4,20,5,$367.47
+ORD-10340,2024-05-05,North,Consumer,Express,Monitor,368.20,5,,1,$368.20
+ORD-10341,2024-06-06,south, consumer ,Same Day,Printer,368.93,6,5,2,$368.93
+ORD-10342,2024-07-07,East ,Home Office,Standard,Laptop,369.66,7,10,,$369.66
+ORD-10343,2024-08-08,west,SMB,Express,Chair,370.39,8,15,4,$370.39
+ORD-10344,2024-09-09,Central,Consumer,Same Day,Desk,371.12,1,20,5,$371.12
+ORD-10345,2024-10-10,,Corporate,Standard,Phone,371.85,2,0,1,$371.85
+ORD-10346,2024-11-11,south,Home Office,Express,Monitor,372.58,3,5,2,$372.58
+ORD-10347,2024-12-12,East ,SMB,Same Day,Printer,373.31,4,10,3,$373.31
+ORD-10348,2024-01-13,west,Consumer,Standard,Laptop,374.04,5,15,4,$374.04
+ORD-10349,2024-02-14,Central,Corporate,Express,Chair,374.77,6,20,5,$374.77
+ORD-10350,2024-03-15,North,Home Office,Same Day,Desk,375.50,7,0,1,$375.50
+ORD-10351,2024-04-16,south,SMB,Standard,Phone,376.23,8,5,2,$376.23
+ORD-10352,2024-05-17,East ,Consumer,Express,Monitor,376.96,1,10,3,$376.96
+ORD-10353,2024-06-18,west,Corporate,Same Day,Printer,377.69,2,15,4,$377.69
+ORD-10354,2024-07-19,Central,Home Office,Standard,Laptop,378.42,3,20,5,$378.42
+ORD-10355,2024-08-20,North,SMB,Express,Chair,379.15,4,0,1,$379.15
+ORD-10356,2024-09-21,south,Consumer,Same Day,Desk,379.88,5,5,2,$379.88
+ORD-10357,2024-10-22,East ,Corporate,Standard,Phone,380.61,6,,3,$380.61
+ORD-10358,2024-11-23,west,Home Office,Express,Monitor,381.34,7,15,4,$381.34
+ORD-10359,2024-12-24,Central,SMB,Same Day,Printer,382.07,8,20,5,$382.07
+ORD-10360,2024-01-25,North,Consumer,Standard,Laptop,382.80,1,0,1,$382.80
+ORD-10361,2024-02-26,south,Corporate,Express,Chair,383.53,2,5,,$383.53
+ORD-10362,2024-03-27,East ,Home Office,Same Day,Desk,384.26,3,10,3,$384.26
+ORD-10363,2024-04-28,west,SMB,Standard,Phone,384.99,4,15,4,$384.99
+ORD-10364,2024-05-01,Central,Consumer,Express,Monitor,385.72,5,20,5,$385.72
+ORD-10365,2024-06-02,North,Corporate,Same Day,Printer,386.45,6,0,1,$386.45
+ORD-10366,2024-07-03,south,Home Office,Standard,Laptop,387.18,7,5,2,$387.18
+ORD-10367,2024-08-04,East ,SMB,Express,Chair,387.91,8,10,3,$387.91
+ORD-10368,2024-09-05,,Consumer,Same Day,Desk,388.64,1,15,4,$388.64
+ORD-10369,2024-10-06,Central,Corporate,Standard,Phone,389.37,2,20,5,$389.37
+ORD-10370,2024-11-07,North,Home Office,Express,Monitor,390.10,3,0,1,$390.10
+ORD-10371,2024-12-08,south,SMB,Same Day,Printer,390.83,4,5,2,$390.83
+ORD-10372,2024-01-09,East , consumer ,Standard,Laptop,391.56,5,10,3,$391.56
+ORD-10373,2024-02-10,west,Corporate,Express,Chair,392.29,6,15,4,$392.29
+ORD-10374,2024-03-11,Central,Home Office,Same Day,Desk,393.02,7,,5,$393.02
+ORD-10375,2024-04-12,North,SMB,Standard,Phone,393.75,8,0,1,$393.75
+ORD-10376,2024-05-13,south,Consumer,Express,Monitor,394.48,1,5,2,$394.48
+ORD-10377,2024-06-14,East ,Corporate,Same Day,Printer,395.21,2,10,3,$395.21
+ORD-10378,2024-07-15,west,Home Office,Standard,Laptop,395.94,3,15,4,$395.94
+ORD-10379,2024-08-16,Central,SMB,Express,Chair,396.67,4,20,5,$396.67
+ORD-10380,2024-09-17,North,Consumer,Same Day,Desk,397.40,5,0,,$397.40
+ORD-10381,2024-10-18,south,Corporate,Standard,Phone,398.13,6,5,2,$398.13
+ORD-10382,2024-11-19,East ,Home Office,Express,Monitor,398.86,7,10,3,$398.86
+ORD-10383,2024-12-20,west,SMB,Same Day,Printer,399.59,8,15,4,$399.59
+ORD-10384,2024-01-21,Central,Consumer,Standard,Laptop,400.32,1,20,5,$400.32
+ORD-10385,2024-02-22,North,Corporate,Express,Chair,401.05,2,0,1,$401.05
+ORD-10386,2024-03-23,south,Home Office,Same Day,Desk,401.78,3,5,2,$401.78
+ORD-10387,2024-04-24,East ,SMB,Standard,Phone,402.51,4,10,3,$402.51
+ORD-10388,2024-05-25,west,Consumer,Express,Monitor,403.24,5,15,4,$403.24
+ORD-10389,2024-06-26,Central,Corporate,Same Day,Printer,403.97,6,20,5,$403.97
+ORD-10390,2024-07-27,North,Home Office,Standard,Laptop,404.70,7,0,1,$404.70
+ORD-10391,2024-08-28,,SMB,Express,Chair,405.43,8,,2,$405.43
+ORD-10392,2024-09-01,East ,Consumer,Same Day,Desk,406.16,1,10,3,$406.16
+ORD-10393,2024-10-02,west,Corporate,Standard,Phone,406.89,2,15,4,$406.89
+ORD-10394,2024-11-03,Central,Home Office,Express,Monitor,407.62,3,20,5,$407.62
+ORD-10395,2024-12-04,North,SMB,Same Day,Printer,408.35,4,0,1,$408.35
+ORD-10396,2024-01-05,south,Consumer,Standard,Laptop,409.08,5,5,2,$409.08
+ORD-10397,2024-02-06,East ,Corporate,Express,Chair,409.81,6,10,3,$409.81
+ORD-10398,2024-03-07,west,Home Office,Same Day,Desk,410.54,7,15,4,$410.54
+ORD-10399,2024-04-08,Central,SMB,Standard,Phone,411.27,8,20,,$411.27
+ORD-10400,2024-05-09,North,Consumer,Express,Monitor,412.00,1,0,1,$412.00
+ORD-10401,2024-06-10,south,Corporate,Same Day,Printer,412.73,2,5,2,$412.73
+ORD-10402,2024-07-11,East ,Home Office,Standard,Laptop,2067.30,3,10,3,$2067.30
+ORD-10403,2024-08-12,west, consumer ,Express,Chair,414.19,4,15,4,$414.19
+ORD-10404,2024-09-13,Central,Consumer,Same Day,Desk,414.92,5,20,5,$414.92
+ORD-10405,2024-10-14,North,Corporate,Standard,Phone,415.65,6,0,1,$415.65
+ORD-10406,2024-11-15,south,Home Office,Express,Monitor,416.38,7,5,2,$416.38
+ORD-10407,2024-12-16,East ,SMB,Same Day,Printer,417.11,8,10,3,$417.11
+ORD-10408,2024-01-17,west,Consumer,Standard,Laptop,417.84,1,,4,$417.84
+ORD-10409,2024-02-18,Central,Corporate,Express,Chair,418.57,2,20,5,$418.57
+ORD-10410,2024-03-19,North,Home Office,Same Day,Desk,419.30,3,0,1,$419.30
+ORD-10411,2024-04-20,south,SMB,Standard,Phone,420.03,4,5,2,$420.03
+ORD-10412,2024-05-21,East ,Consumer,Express,Monitor,420.76,5,10,3,$420.76
+ORD-10413,2024-06-22,west,Corporate,Same Day,Printer,421.49,6,15,4,$421.49
+ORD-10414,2024-07-23,,Home Office,Standard,Laptop,422.22,7,20,5,$422.22
+ORD-10415,2024-08-24,North,SMB,Express,Chair,422.95,8,0,1,$422.95
+ORD-10416,2024-09-25,south,Consumer,Same Day,Desk,423.68,1,5,2,$423.68
+ORD-10417,2024-10-26,East ,Corporate,Standard,Phone,424.41,2,10,3,$424.41
+ORD-10418,2024-11-27,west,Home Office,Express,Monitor,425.14,3,15,,$425.14
+ORD-10419,2024-12-28,Central,SMB,Same Day,Printer,425.87,4,20,5,$425.87
+ORD-10420,2024-01-01,North,Consumer,Standard,Laptop,426.60,5,0,1,$426.60
+ORD-10421,2024-02-02,south,Corporate,Express,Chair,427.33,6,5,2,$427.33
+ORD-10422,2024-03-03,East ,Home Office,Same Day,Desk,428.06,7,10,3,$428.06
+ORD-10423,2024-04-04,west,SMB,Standard,Phone,428.79,8,15,4,$428.79
+ORD-10424,2024-05-05,Central,Consumer,Express,Monitor,429.52,1,20,5,$429.52
+ORD-10425,2024-06-06,North,Corporate,Same Day,Printer,430.25,2,,1,$430.25
+ORD-10426,2024-07-07,south,Home Office,Standard,Laptop,430.98,3,5,2,$430.98
+ORD-10427,2024-08-08,East ,SMB,Express,Chair,431.71,4,10,3,$431.71
+ORD-10428,2024-09-09,west,Consumer,Same Day,Desk,432.44,5,15,4,$432.44
+ORD-10429,2024-10-10,Central,Corporate,Standard,Phone,433.17,6,20,5,$433.17
+ORD-10430,2024-11-11,North,Home Office,Express,Monitor,433.90,7,0,1,$433.90
+ORD-10431,2024-12-12,south,SMB,Same Day,Printer,434.63,8,5,2,$434.63
+ORD-10432,2024-01-13,East ,Consumer,Standard,Laptop,435.36,1,10,3,$435.36
+ORD-10433,2024-02-14,west,Corporate,Express,Chair,436.09,2,15,4,$436.09
+ORD-10434,2024-03-15,Central, consumer ,Same Day,Desk,436.82,3,20,5,$436.82
+ORD-10435,2024-04-16,North,SMB,Standard,Phone,437.55,4,0,1,$437.55
+ORD-10436,2024-05-17,south,Consumer,Express,Monitor,438.28,5,5,2,$438.28
+ORD-10437,2024-06-18,,Corporate,Same Day,Printer,439.01,6,10,,$439.01
+ORD-10438,2024-07-19,west,Home Office,Standard,Laptop,439.74,7,15,4,$439.74
+ORD-10439,2024-08-20,Central,SMB,Express,Chair,440.47,8,20,5,$440.47
+ORD-10440,2024-09-21,North,Consumer,Same Day,Desk,441.20,1,0,1,$441.20
+ORD-10441,2024-10-22,south,Corporate,Standard,Phone,441.93,2,5,2,$441.93
+ORD-10442,2024-11-23,East ,Home Office,Express,Monitor,442.66,3,,3,$442.66
+ORD-10443,2024-12-24,west,SMB,Same Day,Printer,443.39,4,15,4,$443.39
+ORD-10444,2024-01-25,Central,Consumer,Standard,Laptop,444.12,5,20,5,$444.12
+ORD-10445,2024-02-26,North,Corporate,Express,Chair,444.85,6,0,1,$444.85
+ORD-10446,2024-03-27,south,Home Office,Same Day,Desk,445.58,7,5,2,$445.58
+ORD-10447,2024-04-28,East ,SMB,Standard,Phone,446.31,8,10,3,$446.31
+ORD-10448,2024-05-01,west,Consumer,Express,Monitor,447.04,1,15,4,$447.04
+ORD-10449,2024-06-02,Central,Corporate,Same Day,Printer,447.77,2,20,5,$447.77
+ORD-10450,2024-07-03,North,Home Office,Standard,Laptop,448.50,3,0,1,$448.50
+ORD-10451,2024-08-04,south,SMB,Express,Chair,449.23,4,5,2,$449.23
+ORD-10452,2024-09-05,East ,Consumer,Same Day,Desk,449.96,5,10,3,$449.96
+ORD-10453,2024-10-06,west,Corporate,Standard,Phone,450.69,6,15,4,$450.69
+ORD-10454,2024-11-07,Central,Home Office,Express,Monitor,451.42,7,20,5,$451.42
+ORD-10455,2024-12-08,North,SMB,Same Day,Printer,452.15,8,0,1,$452.15
+ORD-10456,2024-01-09,south,Consumer,Standard,Laptop,452.88,1,5,,$452.88
+ORD-10457,2024-02-10,East ,Corporate,Express,Chair,453.61,2,10,3,$453.61
+ORD-10458,2024-03-11,west,Home Office,Same Day,Desk,454.34,3,15,4,$454.34
+ORD-10459,2024-04-12,Central,SMB,Standard,Phone,455.07,4,,5,$455.07
+ORD-10460,2024-05-13,,Consumer,Express,Monitor,455.80,5,0,1,$455.80
+ORD-10461,2024-06-14,south,Corporate,Same Day,Printer,456.53,6,5,2,$456.53
+ORD-10462,2024-07-15,East ,Home Office,Standard,Laptop,457.26,7,10,3,$457.26
+ORD-10463,2024-08-16,west,SMB,Express,Chair,457.99,8,15,4,$457.99
+ORD-10464,2024-09-17,Central,Consumer,Same Day,Desk,458.72,1,20,5,$458.72
+ORD-10465,2024-10-18,North, consumer ,Standard,Phone,459.45,2,0,1,$459.45
+ORD-10466,2024-11-19,south,Home Office,Express,Monitor,460.18,3,5,2,$460.18
+ORD-10467,2024-12-20,East ,SMB,Same Day,Printer,460.91,4,10,3,$460.91
+ORD-10468,2024-01-21,west,Consumer,Standard,Laptop,461.64,5,15,4,$461.64
+ORD-10469,2024-02-22,Central,Corporate,Express,Chair,2311.85,6,20,5,$2311.85
+ORD-10470,2024-03-23,North,Home Office,Same Day,Desk,463.10,7,0,1,$463.10
+ORD-10471,2024-04-24,south,SMB,Standard,Phone,463.83,8,5,2,$463.83
+ORD-10472,2024-05-25,East ,Consumer,Express,Monitor,464.56,1,10,3,$464.56
+ORD-10473,2024-06-26,west,Corporate,Same Day,Printer,465.29,2,15,4,$465.29
+ORD-10474,2024-07-27,Central,Home Office,Standard,Laptop,466.02,3,20,5,$466.02
+ORD-10475,2024-08-28,North,SMB,Express,Chair,466.75,4,0,,$466.75
+ORD-10476,2024-09-01,south,Consumer,Same Day,Desk,467.48,5,,2,$467.48
+ORD-10477,2024-10-02,East ,Corporate,Standard,Phone,468.21,6,10,3,$468.21
+ORD-10478,2024-11-03,west,Home Office,Express,Monitor,468.94,7,15,4,$468.94
+ORD-10479,2024-12-04,Central,SMB,Same Day,Printer,469.67,8,20,5,$469.67
+ORD-10480,2024-01-05,North,Consumer,Standard,Laptop,470.40,1,0,1,$470.40
+ORD-10481,2024-02-06,south,Corporate,Express,Chair,471.13,2,5,2,$471.13
+ORD-10482,2024-03-07,East ,Home Office,Same Day,Desk,471.86,3,10,3,$471.86
+ORD-10483,2024-04-08,,SMB,Standard,Phone,472.59,4,15,4,$472.59
+ORD-10484,2024-05-09,Central,Consumer,Express,Monitor,473.32,5,20,5,$473.32
+ORD-10485,2024-06-10,North,Corporate,Same Day,Printer,474.05,6,0,1,$474.05
+ORD-10486,2024-07-11,south,Home Office,Standard,Laptop,474.78,7,5,2,$474.78
+ORD-10487,2024-08-12,East ,SMB,Express,Chair,475.51,8,10,3,$475.51
+ORD-10488,2024-09-13,west,Consumer,Same Day,Desk,476.24,1,15,4,$476.24
+ORD-10489,2024-10-14,Central,Corporate,Standard,Phone,476.97,2,20,5,$476.97
+ORD-10490,2024-11-15,North,Home Office,Express,Monitor,477.70,3,0,1,$477.70
+ORD-10491,2024-12-16,south,SMB,Same Day,Printer,478.43,4,5,2,$478.43
+ORD-10492,2024-01-17,East ,Consumer,Standard,Laptop,479.16,5,10,3,$479.16
+ORD-10493,2024-02-18,west,Corporate,Express,Chair,479.89,6,,4,$479.89
+ORD-10494,2024-03-19,Central,Home Office,Same Day,Desk,480.62,7,20,,$480.62
+ORD-10495,2024-04-20,North,SMB,Standard,Phone,481.35,8,0,1,$481.35
+ORD-10496,2024-05-21,south, consumer ,Express,Monitor,482.08,1,5,2,$482.08
+ORD-10497,2024-06-22,East ,Corporate,Same Day,Printer,482.81,2,10,3,$482.81
+ORD-10498,2024-07-23,west,Home Office,Standard,Laptop,483.54,3,15,4,$483.54
+ORD-10499,2024-08-24,Central,SMB,Express,Chair,484.27,4,20,5,$484.27
+ORD-10500,2024-09-25,North,Consumer,Same Day,Desk,485.00,5,0,1,$485.00
+ORD-10501,2024-10-26,south,Corporate,Standard,Phone,485.73,6,5,2,$485.73
+ORD-10502,2024-11-27,East ,Home Office,Express,Monitor,486.46,7,10,3,$486.46
+ORD-10503,2024-12-28,west,SMB,Same Day,Printer,487.19,8,15,4,$487.19
+ORD-10504,2024-01-01,Central,Consumer,Standard,Laptop,487.92,1,20,5,$487.92
+ORD-10505,2024-02-02,North,Corporate,Express,Chair,488.65,2,0,1,$488.65
+ORD-10506,2024-03-03,,Home Office,Same Day,Desk,489.38,3,5,2,$489.38
+ORD-10507,2024-04-04,East ,SMB,Standard,Phone,490.11,4,10,3,$490.11
+ORD-10508,2024-05-05,west,Consumer,Express,Monitor,490.84,5,15,4,$490.84
+ORD-10509,2024-06-06,Central,Corporate,Same Day,Printer,491.57,6,20,5,$491.57
+ORD-10510,2024-07-07,North,Home Office,Standard,Laptop,492.30,7,,1,$492.30
+ORD-10511,2024-08-08,south,SMB,Express,Chair,493.03,8,5,2,$493.03
+ORD-10512,2024-09-09,East ,Consumer,Same Day,Desk,493.76,1,10,3,$493.76
+ORD-10513,2024-10-10,west,Corporate,Standard,Phone,494.49,2,15,,$494.49
+ORD-10514,2024-11-11,Central,Home Office,Express,Monitor,495.22,3,20,5,$495.22
+ORD-10515,2024-12-12,North,SMB,Same Day,Printer,495.95,4,0,1,$495.95
+ORD-10516,2024-01-13,south,Consumer,Standard,Laptop,496.68,5,5,2,$496.68
+ORD-10517,2024-02-14,East ,Corporate,Express,Chair,497.41,6,10,3,$497.41
+ORD-10518,2024-03-15,west,Home Office,Same Day,Desk,498.14,7,15,4,$498.14
+ORD-10519,2024-04-16,Central,SMB,Standard,Phone,498.87,8,20,5,$498.87
+ORD-10520,2024-05-17,North,Consumer,Express,Monitor,499.60,1,0,1,$499.60
+ORD-10521,2024-06-18,south,Corporate,Same Day,Printer,500.33,2,5,2,$500.33
+ORD-10522,2024-07-19,East ,Home Office,Standard,Laptop,501.06,3,10,3,$501.06
+ORD-10523,2024-08-20,west,SMB,Express,Chair,501.79,4,15,4,$501.79
+ORD-10524,2024-09-21,Central,Consumer,Same Day,Desk,502.52,5,20,5,$502.52
+ORD-10525,2024-10-22,North,Corporate,Standard,Phone,503.25,6,0,1,$503.25
+ORD-10526,2024-11-23,south,Home Office,Express,Monitor,503.98,7,5,2,$503.98
+ORD-10527,2024-12-24,East , consumer ,Same Day,Printer,504.71,8,,3,$504.71
+ORD-10528,2024-01-25,west,Consumer,Standard,Laptop,505.44,1,15,4,$505.44
+ORD-10529,2024-02-26,,Corporate,Express,Chair,506.17,2,20,5,$506.17
+ORD-10530,2024-03-27,North,Home Office,Same Day,Desk,506.90,3,0,1,$506.90
+ORD-10531,2024-04-28,south,SMB,Standard,Phone,507.63,4,5,2,$507.63
+ORD-10532,2024-05-01,East ,Consumer,Express,Monitor,508.36,5,10,,$508.36
+ORD-10533,2024-06-02,west,Corporate,Same Day,Printer,509.09,6,15,4,$509.09
+ORD-10534,2024-07-03,Central,Home Office,Standard,Laptop,509.82,7,20,5,$509.82
+ORD-10535,2024-08-04,North,SMB,Express,Chair,510.55,8,0,1,$510.55
+ORD-10536,2024-09-05,south,Consumer,Same Day,Desk,2556.40,1,5,2,$2556.40
+ORD-10537,2024-10-06,East ,Corporate,Standard,Phone,512.01,2,10,3,$512.01
+ORD-10538,2024-11-07,west,Home Office,Express,Monitor,512.74,3,15,4,$512.74
+ORD-10539,2024-12-08,Central,SMB,Same Day,Printer,513.47,4,20,5,$513.47
+ORD-10540,2024-01-09,North,Consumer,Standard,Laptop,514.20,5,0,1,$514.20
+ORD-10541,2024-02-10,south,Corporate,Express,Chair,514.93,6,5,2,$514.93
+ORD-10542,2024-03-11,East ,Home Office,Same Day,Desk,515.66,7,10,3,$515.66
+ORD-10543,2024-04-12,west,SMB,Standard,Phone,516.39,8,15,4,$516.39
+ORD-10544,2024-05-13,Central,Consumer,Express,Monitor,517.12,1,,5,$517.12
+ORD-10545,2024-06-14,North,Corporate,Same Day,Printer,517.85,2,0,1,$517.85
+ORD-10546,2024-07-15,south,Home Office,Standard,Laptop,518.58,3,5,2,$518.58
+ORD-10547,2024-08-16,East ,SMB,Express,Chair,519.31,4,10,3,$519.31
+ORD-10548,2024-09-17,west,Consumer,Same Day,Desk,520.04,5,15,4,$520.04
+ORD-10549,2024-10-18,Central,Corporate,Standard,Phone,520.77,6,20,5,$520.77
+ORD-10550,2024-11-19,North,Home Office,Express,Monitor,521.50,7,0,1,$521.50
+ORD-10551,2024-12-20,south,SMB,Same Day,Printer,522.23,8,5,,$522.23
+ORD-10552,2024-01-21,,Consumer,Standard,Laptop,522.96,1,10,3,$522.96
+ORD-10553,2024-02-22,west,Corporate,Express,Chair,523.69,2,15,4,$523.69
+ORD-10554,2024-03-23,Central,Home Office,Same Day,Desk,524.42,3,20,5,$524.42
+ORD-10555,2024-04-24,North,SMB,Standard,Phone,525.15,4,0,1,$525.15
+ORD-10556,2024-05-25,south,Consumer,Express,Monitor,525.88,5,5,2,$525.88
+ORD-10557,2024-06-26,East ,Corporate,Same Day,Printer,526.61,6,10,3,$526.61
+ORD-10558,2024-07-27,west, consumer ,Standard,Laptop,527.34,7,15,4,$527.34
+ORD-10559,2024-08-28,Central,SMB,Express,Chair,528.07,8,20,5,$528.07
+ORD-10560,2024-09-01,North,Consumer,Same Day,Desk,528.80,1,0,1,$528.80
+ORD-10561,2024-10-02,south,Corporate,Standard,Phone,529.53,2,,2,$529.53
+ORD-10562,2024-11-03,East ,Home Office,Express,Monitor,530.26,3,10,3,$530.26
+ORD-10563,2024-12-04,west,SMB,Same Day,Printer,530.99,4,15,4,$530.99
+ORD-10564,2024-01-05,Central,Consumer,Standard,Laptop,531.72,5,20,5,$531.72
+ORD-10565,2024-02-06,North,Corporate,Express,Chair,532.45,6,0,1,$532.45
+ORD-10566,2024-03-07,south,Home Office,Same Day,Desk,533.18,7,5,2,$533.18
+ORD-10567,2024-04-08,East ,SMB,Standard,Phone,533.91,8,10,3,$533.91
+ORD-10568,2024-05-09,west,Consumer,Express,Monitor,534.64,1,15,4,$534.64
+ORD-10569,2024-06-10,Central,Corporate,Same Day,Printer,535.37,2,20,5,$535.37
+ORD-10570,2024-07-11,North,Home Office,Standard,Laptop,536.10,3,0,,$536.10
+ORD-10571,2024-08-12,south,SMB,Express,Chair,536.83,4,5,2,$536.83
+ORD-10572,2024-09-13,East ,Consumer,Same Day,Desk,537.56,5,10,3,$537.56
+ORD-10573,2024-10-14,west,Corporate,Standard,Phone,538.29,6,15,4,$538.29
+ORD-10574,2024-11-15,Central,Home Office,Express,Monitor,539.02,7,20,5,$539.02
+ORD-10575,2024-12-16,,SMB,Same Day,Printer,539.75,8,0,1,$539.75
+ORD-10576,2024-01-17,south,Consumer,Standard,Laptop,540.48,1,5,2,$540.48
+ORD-10577,2024-02-18,East ,Corporate,Express,Chair,541.21,2,10,3,$541.21
+ORD-10578,2024-03-19,west,Home Office,Same Day,Desk,541.94,3,,4,$541.94
+ORD-10579,2024-04-20,Central,SMB,Standard,Phone,542.67,4,20,5,$542.67
+ORD-10580,2024-05-21,North,Consumer,Express,Monitor,543.40,5,0,1,$543.40
+ORD-10581,2024-06-22,south,Corporate,Same Day,Printer,544.13,6,5,2,$544.13
+ORD-10582,2024-07-23,East ,Home Office,Standard,Laptop,544.86,7,10,3,$544.86
+ORD-10583,2024-08-24,west,SMB,Express,Chair,545.59,8,15,4,$545.59
+ORD-10584,2024-09-25,Central,Consumer,Same Day,Desk,546.32,1,20,5,$546.32
+ORD-10585,2024-10-26,North,Corporate,Standard,Phone,547.05,2,0,1,$547.05
+ORD-10586,2024-11-27,south,Home Office,Express,Monitor,547.78,3,5,2,$547.78
+ORD-10587,2024-12-28,East ,SMB,Same Day,Printer,548.51,4,10,3,$548.51
+ORD-10588,2024-01-01,west,Consumer,Standard,Laptop,549.24,5,15,4,$549.24
+ORD-10589,2024-02-02,Central, consumer ,Express,Chair,549.97,6,20,,$549.97
+ORD-10590,2024-03-03,North,Home Office,Same Day,Desk,550.70,7,0,1,$550.70
+ORD-10591,2024-04-04,south,SMB,Standard,Phone,551.43,8,5,2,$551.43
+ORD-10592,2024-05-05,East ,Consumer,Express,Monitor,552.16,1,10,3,$552.16
+ORD-10593,2024-06-06,west,Corporate,Same Day,Printer,552.89,2,15,4,$552.89
+ORD-10594,2024-07-07,Central,Home Office,Standard,Laptop,553.62,3,20,5,$553.62
+ORD-10595,2024-08-08,North,SMB,Express,Chair,554.35,4,,1,$554.35
+ORD-10596,2024-09-09,south,Consumer,Same Day,Desk,555.08,5,5,2,$555.08
+ORD-10597,2024-10-10,East ,Corporate,Standard,Phone,555.81,6,10,3,$555.81
+ORD-10598,2024-11-11,,Home Office,Express,Monitor,556.54,7,15,4,$556.54
+ORD-10599,2024-12-12,Central,SMB,Same Day,Printer,557.27,8,20,5,$557.27
+ORD-10600,2024-01-13,North,Consumer,Standard,Laptop,558.00,1,0,1,$558.00
+ORD-10601,2024-02-14,south,Corporate,Express,Chair,558.73,2,5,2,$558.73
+ORD-10602,2024-03-15,East ,Home Office,Same Day,Desk,559.46,3,10,3,$559.46
+ORD-10603,2024-04-16,west,SMB,Standard,Phone,2800.95,4,15,4,$2800.95
+ORD-10604,2024-05-17,Central,Consumer,Express,Monitor,560.92,5,20,5,$560.92
+ORD-10605,2024-06-18,North,Corporate,Same Day,Printer,561.65,6,0,1,$561.65
+ORD-10606,2024-07-19,south,Home Office,Standard,Laptop,562.38,7,5,2,$562.38
+ORD-10607,2024-08-20,East ,SMB,Express,Chair,563.11,8,10,3,$563.11
+ORD-10608,2024-09-21,west,Consumer,Same Day,Desk,563.84,1,15,,$563.84
+ORD-10609,2024-10-22,Central,Corporate,Standard,Phone,564.57,2,20,5,$564.57
+ORD-10610,2024-11-23,North,Home Office,Express,Monitor,565.30,3,0,1,$565.30
+ORD-10611,2024-12-24,south,SMB,Same Day,Printer,566.03,4,5,2,$566.03
+ORD-10612,2024-01-25,East ,Consumer,Standard,Laptop,566.76,5,,3,$566.76
+ORD-10613,2024-02-26,west,Corporate,Express,Chair,567.49,6,15,4,$567.49
+ORD-10614,2024-03-27,Central,Home Office,Same Day,Desk,568.22,7,20,5,$568.22
+ORD-10615,2024-04-28,North,SMB,Standard,Phone,568.95,8,0,1,$568.95
+ORD-10616,2024-05-01,south,Consumer,Express,Monitor,569.68,1,5,2,$569.68
+ORD-10617,2024-06-02,East ,Corporate,Same Day,Printer,570.41,2,10,3,$570.41
+ORD-10618,2024-07-03,west,Home Office,Standard,Laptop,571.14,3,15,4,$571.14
+ORD-10619,2024-08-04,Central,SMB,Express,Chair,571.87,4,20,5,$571.87
+ORD-10620,2024-09-05,North, consumer ,Same Day,Desk,572.60,5,0,1,$572.60
+ORD-10621,2024-10-06,,Corporate,Standard,Phone,573.33,6,5,2,$573.33
+ORD-10622,2024-11-07,East ,Home Office,Express,Monitor,574.06,7,10,3,$574.06
+ORD-10623,2024-12-08,west,SMB,Same Day,Printer,574.79,8,15,4,$574.79
+ORD-10624,2024-01-09,Central,Consumer,Standard,Laptop,575.52,1,20,5,$575.52
+ORD-10625,2024-02-10,North,Corporate,Express,Chair,576.25,2,0,1,$576.25
+ORD-10626,2024-03-11,south,Home Office,Same Day,Desk,576.98,3,5,2,$576.98
+ORD-10627,2024-04-12,East ,SMB,Standard,Phone,577.71,4,10,,$577.71
+ORD-10628,2024-05-13,west,Consumer,Express,Monitor,578.44,5,15,4,$578.44
+ORD-10629,2024-06-14,Central,Corporate,Same Day,Printer,579.17,6,,5,$579.17
+ORD-10630,2024-07-15,North,Home Office,Standard,Laptop,579.90,7,0,1,$579.90
+ORD-10631,2024-08-16,south,SMB,Express,Chair,580.63,8,5,2,$580.63
+ORD-10632,2024-09-17,East ,Consumer,Same Day,Desk,581.36,1,10,3,$581.36
+ORD-10633,2024-10-18,west,Corporate,Standard,Phone,582.09,2,15,4,$582.09
+ORD-10634,2024-11-19,Central,Home Office,Express,Monitor,582.82,3,20,5,$582.82
+ORD-10635,2024-12-20,North,SMB,Same Day,Printer,583.55,4,0,1,$583.55
+ORD-10636,2024-01-21,south,Consumer,Standard,Laptop,584.28,5,5,2,$584.28
+ORD-10637,2024-02-22,East ,Corporate,Express,Chair,585.01,6,10,3,$585.01
+ORD-10638,2024-03-23,west,Home Office,Same Day,Desk,585.74,7,15,4,$585.74
+ORD-10639,2024-04-24,Central,SMB,Standard,Phone,586.47,8,20,5,$586.47
+ORD-10640,2024-05-25,North,Consumer,Express,Monitor,587.20,1,0,1,$587.20
+ORD-10641,2024-06-26,south,Corporate,Same Day,Printer,587.93,2,5,2,$587.93
+ORD-10642,2024-07-27,East ,Home Office,Standard,Laptop,588.66,3,10,3,$588.66
+ORD-10643,2024-08-28,west,SMB,Express,Chair,589.39,4,15,4,$589.39
+ORD-10644,2024-09-01,,Consumer,Same Day,Desk,590.12,5,20,5,$590.12
+ORD-10645,2024-10-02,North,Corporate,Standard,Phone,590.85,6,0,1,$590.85
+ORD-10646,2024-11-03,south,Home Office,Express,Monitor,591.58,7,,,$591.58
+ORD-10647,2024-12-04,East ,SMB,Same Day,Printer,592.31,8,10,3,$592.31
+ORD-10648,2024-01-05,west,Consumer,Standard,Laptop,593.04,1,15,4,$593.04
+ORD-10649,2024-02-06,Central,Corporate,Express,Chair,593.77,2,20,5,$593.77
+ORD-10650,2024-03-07,North,Home Office,Same Day,Desk,594.50,3,0,1,$594.50
+ORD-10651,2024-04-08,south, consumer ,Standard,Phone,595.23,4,5,2,$595.23
+ORD-10652,2024-05-09,East ,Consumer,Express,Monitor,595.96,5,10,3,$595.96
+ORD-10653,2024-06-10,west,Corporate,Same Day,Printer,596.69,6,15,4,$596.69
+ORD-10654,2024-07-11,Central,Home Office,Standard,Laptop,597.42,7,20,5,$597.42
+ORD-10655,2024-08-12,North,SMB,Express,Chair,598.15,8,0,1,$598.15
+ORD-10656,2024-09-13,south,Consumer,Same Day,Desk,598.88,1,5,2,$598.88
+ORD-10657,2024-10-14,East ,Corporate,Standard,Phone,599.61,2,10,3,$599.61
+ORD-10658,2024-11-15,west,Home Office,Express,Monitor,600.34,3,15,4,$600.34
+ORD-10659,2024-12-16,Central,SMB,Same Day,Printer,601.07,4,20,5,$601.07
+ORD-10660,2024-01-17,North,Consumer,Standard,Laptop,601.80,5,0,1,$601.80
+ORD-10661,2024-02-18,south,Corporate,Express,Chair,602.53,6,5,2,$602.53
+ORD-10662,2024-03-19,East ,Home Office,Same Day,Desk,603.26,7,10,3,$603.26
+ORD-10663,2024-04-20,west,SMB,Standard,Phone,603.99,8,,4,$603.99
+ORD-10664,2024-05-21,Central,Consumer,Express,Monitor,604.72,1,20,5,$604.72
+ORD-10665,2024-06-22,North,Corporate,Same Day,Printer,605.45,2,0,,$605.45
+ORD-10666,2024-07-23,south,Home Office,Standard,Laptop,606.18,3,5,2,$606.18
+ORD-10667,2024-08-24,,SMB,Express,Chair,606.91,4,10,3,$606.91
+ORD-10668,2024-09-25,west,Consumer,Same Day,Desk,607.64,5,15,4,$607.64
+ORD-10669,2024-10-26,Central,Corporate,Standard,Phone,608.37,6,20,5,$608.37
+ORD-10670,2024-11-27,North,Home Office,Express,Monitor,3045.50,7,0,1,$3045.50
+ORD-10671,2024-12-28,south,SMB,Same Day,Printer,609.83,8,5,2,$609.83
+ORD-10672,2024-01-01,East ,Consumer,Standard,Laptop,610.56,1,10,3,$610.56
+ORD-10673,2024-02-02,west,Corporate,Express,Chair,611.29,2,15,4,$611.29
+ORD-10674,2024-03-03,Central,Home Office,Same Day,Desk,612.02,3,20,5,$612.02
+ORD-10675,2024-04-04,North,SMB,Standard,Phone,612.75,4,0,1,$612.75
+ORD-10676,2024-05-05,south,Consumer,Express,Monitor,613.48,5,5,2,$613.48
+ORD-10677,2024-06-06,East ,Corporate,Same Day,Printer,614.21,6,10,3,$614.21
+ORD-10678,2024-07-07,west,Home Office,Standard,Laptop,614.94,7,15,4,$614.94
+ORD-10679,2024-08-08,Central,SMB,Express,Chair,615.67,8,20,5,$615.67
+ORD-10680,2024-09-09,North,Consumer,Same Day,Desk,616.40,1,,1,$616.40
+ORD-10681,2024-10-10,south,Corporate,Standard,Phone,617.13,2,5,2,$617.13
+ORD-10682,2024-11-11,East , consumer ,Express,Monitor,617.86,3,10,3,$617.86
+ORD-10683,2024-12-12,west,SMB,Same Day,Printer,618.59,4,15,4,$618.59
+ORD-10684,2024-01-13,Central,Consumer,Standard,Laptop,619.32,5,20,,$619.32
+ORD-10685,2024-02-14,North,Corporate,Express,Chair,620.05,6,0,1,$620.05
+ORD-10686,2024-03-15,south,Home Office,Same Day,Desk,620.78,7,5,2,$620.78
+ORD-10687,2024-04-16,East ,SMB,Standard,Phone,621.51,8,10,3,$621.51
+ORD-10688,2024-05-17,west,Consumer,Express,Monitor,622.24,1,15,4,$622.24
+ORD-10689,2024-06-18,Central,Corporate,Same Day,Printer,622.97,2,20,5,$622.97
+ORD-10690,2024-07-19,,Home Office,Standard,Laptop,623.70,3,0,1,$623.70
+ORD-10691,2024-08-20,south,SMB,Express,Chair,624.43,4,5,2,$624.43
+ORD-10692,2024-09-21,East ,Consumer,Same Day,Desk,625.16,5,10,3,$625.16
+ORD-10693,2024-10-22,west,Corporate,Standard,Phone,625.89,6,15,4,$625.89
+ORD-10694,2024-11-23,Central,Home Office,Express,Monitor,626.62,7,20,5,$626.62
+ORD-10695,2024-12-24,North,SMB,Same Day,Printer,627.35,8,0,1,$627.35
+ORD-10696,2024-01-25,south,Consumer,Standard,Laptop,628.08,1,5,2,$628.08
+ORD-10697,2024-02-26,East ,Corporate,Express,Chair,628.81,2,,3,$628.81
+ORD-10698,2024-03-27,west,Home Office,Same Day,Desk,629.54,3,15,4,$629.54
+ORD-10699,2024-04-28,Central,SMB,Standard,Phone,630.27,4,20,5,$630.27
+ORD-10700,2024-05-01,North,Consumer,Express,Monitor,631.00,5,0,1,$631.00
+ORD-10701,2024-06-02,south,Corporate,Same Day,Printer,631.73,6,5,2,$631.73
+ORD-10702,2024-07-03,East ,Home Office,Standard,Laptop,632.46,7,10,3,$632.46
+ORD-10703,2024-08-04,west,SMB,Express,Chair,633.19,8,15,,$633.19
+ORD-10704,2024-09-05,Central,Consumer,Same Day,Desk,633.92,1,20,5,$633.92
+ORD-10705,2024-10-06,North,Corporate,Standard,Phone,634.65,2,0,1,$634.65
+ORD-10706,2024-11-07,south,Home Office,Express,Monitor,635.38,3,5,2,$635.38
+ORD-10707,2024-12-08,East ,SMB,Same Day,Printer,636.11,4,10,3,$636.11
+ORD-10708,2024-01-09,west,Consumer,Standard,Laptop,636.84,5,15,4,$636.84
+ORD-10709,2024-02-10,Central,Corporate,Express,Chair,637.57,6,20,5,$637.57
+ORD-10710,2024-03-11,North,Home Office,Same Day,Desk,638.30,7,0,1,$638.30
+ORD-10711,2024-04-12,south,SMB,Standard,Phone,639.03,8,5,2,$639.03
+ORD-10712,2024-05-13,East ,Consumer,Express,Monitor,639.76,1,10,3,$639.76
+ORD-10713,2024-06-14,, consumer ,Same Day,Printer,640.49,2,15,4,$640.49
+ORD-10714,2024-07-15,Central,Home Office,Standard,Laptop,641.22,3,,5,$641.22
+ORD-10715,2024-08-16,North,SMB,Express,Chair,641.95,4,0,1,$641.95
+ORD-10716,2024-09-17,south,Consumer,Same Day,Desk,642.68,5,5,2,$642.68
+ORD-10717,2024-10-18,East ,Corporate,Standard,Phone,643.41,6,10,3,$643.41
+ORD-10718,2024-11-19,west,Home Office,Express,Monitor,644.14,7,15,4,$644.14
+ORD-10719,2024-12-20,Central,SMB,Same Day,Printer,644.87,8,20,5,$644.87
+ORD-10720,2024-01-21,North,Consumer,Standard,Laptop,645.60,1,0,1,$645.60
+ORD-10721,2024-02-22,south,Corporate,Express,Chair,646.33,2,5,2,$646.33
+ORD-10722,2024-03-23,East ,Home Office,Same Day,Desk,647.06,3,10,,$647.06
+ORD-10723,2024-04-24,west,SMB,Standard,Phone,647.79,4,15,4,$647.79
+ORD-10724,2024-05-25,Central,Consumer,Express,Monitor,648.52,5,20,5,$648.52
+ORD-10725,2024-06-26,North,Corporate,Same Day,Printer,649.25,6,0,1,$649.25
+ORD-10726,2024-07-27,south,Home Office,Standard,Laptop,649.98,7,5,2,$649.98
+ORD-10727,2024-08-28,East ,SMB,Express,Chair,650.71,8,10,3,$650.71
+ORD-10728,2024-09-01,west,Consumer,Same Day,Desk,651.44,1,15,4,$651.44
+ORD-10729,2024-10-02,Central,Corporate,Standard,Phone,652.17,2,20,5,$652.17
+ORD-10730,2024-11-03,North,Home Office,Express,Monitor,652.90,3,0,1,$652.90
+ORD-10731,2024-12-04,south,SMB,Same Day,Printer,653.63,4,,2,$653.63
+ORD-10732,2024-01-05,East ,Consumer,Standard,Laptop,654.36,5,10,3,$654.36
+ORD-10733,2024-02-06,west,Corporate,Express,Chair,655.09,6,15,4,$655.09
+ORD-10734,2024-03-07,Central,Home Office,Same Day,Desk,655.82,7,20,5,$655.82
+ORD-10735,2024-04-08,North,SMB,Standard,Phone,656.55,8,0,1,$656.55
+ORD-10736,2024-05-09,,Consumer,Express,Monitor,657.28,1,5,2,$657.28
+ORD-10737,2024-06-10,East ,Corporate,Same Day,Printer,3290.05,2,10,3,$3290.05
+ORD-10738,2024-07-11,west,Home Office,Standard,Laptop,658.74,3,15,4,$658.74
+ORD-10739,2024-08-12,Central,SMB,Express,Chair,659.47,4,20,5,$659.47
+ORD-10740,2024-09-13,North,Consumer,Same Day,Desk,660.20,5,0,1,$660.20
+ORD-10741,2024-10-14,south,Corporate,Standard,Phone,660.93,6,5,,$660.93
+ORD-10742,2024-11-15,East ,Home Office,Express,Monitor,661.66,7,10,3,$661.66
+ORD-10743,2024-12-16,west,SMB,Same Day,Printer,662.39,8,15,4,$662.39
+ORD-10744,2024-01-17,Central, consumer ,Standard,Laptop,663.12,1,20,5,$663.12
+ORD-10745,2024-02-18,North,Corporate,Express,Chair,663.85,2,0,1,$663.85
+ORD-10746,2024-03-19,south,Home Office,Same Day,Desk,664.58,3,5,2,$664.58
+ORD-10747,2024-04-20,East ,SMB,Standard,Phone,665.31,4,10,3,$665.31
+ORD-10748,2024-05-21,west,Consumer,Express,Monitor,666.04,5,,4,$666.04
+ORD-10749,2024-06-22,Central,Corporate,Same Day,Printer,666.77,6,20,5,$666.77
+ORD-10750,2024-07-23,North,Home Office,Standard,Laptop,667.50,7,0,1,$667.50
+ORD-10751,2024-08-24,south,SMB,Express,Chair,668.23,8,5,2,$668.23
+ORD-10752,2024-09-25,East ,Consumer,Same Day,Desk,668.96,1,10,3,$668.96
+ORD-10753,2024-10-26,west,Corporate,Standard,Phone,669.69,2,15,4,$669.69
+ORD-10754,2024-11-27,Central,Home Office,Express,Monitor,670.42,3,20,5,$670.42
+ORD-10755,2024-12-28,North,SMB,Same Day,Printer,671.15,4,0,1,$671.15
+ORD-10756,2024-01-01,south,Consumer,Standard,Laptop,671.88,5,5,2,$671.88
+ORD-10757,2024-02-02,East ,Corporate,Express,Chair,672.61,6,10,3,$672.61
+ORD-10758,2024-03-03,west,Home Office,Same Day,Desk,673.34,7,15,4,$673.34
+ORD-10759,2024-04-04,,SMB,Standard,Phone,674.07,8,20,5,$674.07
+ORD-10760,2024-05-05,North,Consumer,Express,Monitor,674.80,1,0,,$674.80
+ORD-10761,2024-06-06,south,Corporate,Same Day,Printer,675.53,2,5,2,$675.53
+ORD-10762,2024-07-07,East ,Home Office,Standard,Laptop,676.26,3,10,3,$676.26
+ORD-10763,2024-08-08,west,SMB,Express,Chair,676.99,4,15,4,$676.99
+ORD-10764,2024-09-09,Central,Consumer,Same Day,Desk,677.72,5,20,5,$677.72
+ORD-10765,2024-10-10,North,Corporate,Standard,Phone,678.45,6,,1,$678.45
+ORD-10766,2024-11-11,south,Home Office,Express,Monitor,679.18,7,5,2,$679.18
+ORD-10767,2024-12-12,East ,SMB,Same Day,Printer,679.91,8,10,3,$679.91
+ORD-10768,2024-01-13,west,Consumer,Standard,Laptop,680.64,1,15,4,$680.64
+ORD-10769,2024-02-14,Central,Corporate,Express,Chair,681.37,2,20,5,$681.37
+ORD-10770,2024-03-15,North,Home Office,Same Day,Desk,682.10,3,0,1,$682.10
+ORD-10771,2024-04-16,south,SMB,Standard,Phone,682.83,4,5,2,$682.83
+ORD-10772,2024-05-17,East ,Consumer,Express,Monitor,683.56,5,10,3,$683.56
+ORD-10773,2024-06-18,west,Corporate,Same Day,Printer,684.29,6,15,4,$684.29
+ORD-10774,2024-07-19,Central,Home Office,Standard,Laptop,685.02,7,20,5,$685.02
+ORD-10775,2024-08-20,North, consumer ,Express,Chair,685.75,8,0,1,$685.75
+ORD-10776,2024-09-21,south,Consumer,Same Day,Desk,686.48,1,5,2,$686.48
+ORD-10777,2024-10-22,East ,Corporate,Standard,Phone,687.21,2,10,3,$687.21
+ORD-10778,2024-11-23,west,Home Office,Express,Monitor,687.94,3,15,4,$687.94
+ORD-10779,2024-12-24,Central,SMB,Same Day,Printer,688.67,4,20,,$688.67
+ORD-10780,2024-01-25,North,Consumer,Standard,Laptop,689.40,5,0,1,$689.40
+ORD-10781,2024-02-26,south,Corporate,Express,Chair,690.13,6,5,2,$690.13
+ORD-10782,2024-03-27,,Home Office,Same Day,Desk,690.86,7,,3,$690.86
+ORD-10783,2024-04-28,west,SMB,Standard,Phone,691.59,8,15,4,$691.59
+ORD-10784,2024-05-01,Central,Consumer,Express,Monitor,692.32,1,20,5,$692.32
+ORD-10785,2024-06-02,North,Corporate,Same Day,Printer,693.05,2,0,1,$693.05
+ORD-10786,2024-07-03,south,Home Office,Standard,Laptop,693.78,3,5,2,$693.78
+ORD-10787,2024-08-04,East ,SMB,Express,Chair,694.51,4,10,3,$694.51
+ORD-10788,2024-09-05,west,Consumer,Same Day,Desk,695.24,5,15,4,$695.24
+ORD-10789,2024-10-06,Central,Corporate,Standard,Phone,695.97,6,20,5,$695.97
+ORD-10790,2024-11-07,North,Home Office,Express,Monitor,696.70,7,0,1,$696.70
+ORD-10791,2024-12-08,south,SMB,Same Day,Printer,697.43,8,5,2,$697.43
+ORD-10792,2024-01-09,East ,Consumer,Standard,Laptop,698.16,1,10,3,$698.16
+ORD-10793,2024-02-10,west,Corporate,Express,Chair,698.89,2,15,4,$698.89
+ORD-10794,2024-03-11,Central,Home Office,Same Day,Desk,699.62,3,20,5,$699.62
+ORD-10795,2024-04-12,North,SMB,Standard,Phone,700.35,4,0,1,$700.35
+ORD-10796,2024-05-13,south,Consumer,Express,Monitor,701.08,5,5,2,$701.08
+ORD-10797,2024-06-14,East ,Corporate,Same Day,Printer,701.81,6,10,3,$701.81
+ORD-10798,2024-07-15,west,Home Office,Standard,Laptop,702.54,7,15,,$702.54
+ORD-10799,2024-08-16,Central,SMB,Express,Chair,703.27,8,,5,$703.27
+ORD-10800,2024-09-17,North,Consumer,Same Day,Desk,704.00,1,0,1,$704.00
+ORD-10801,2024-10-18,south,Corporate,Standard,Phone,704.73,2,5,2,$704.73
+ORD-10802,2024-11-19,East ,Home Office,Express,Monitor,705.46,3,10,3,$705.46
+ORD-10803,2024-12-20,west,SMB,Same Day,Printer,706.19,4,15,4,$706.19
+ORD-10804,2024-01-21,Central,Consumer,Standard,Laptop,3534.60,5,20,5,$3534.60
+ORD-10805,2024-02-22,,Corporate,Express,Chair,707.65,6,0,1,$707.65
+ORD-10806,2024-03-23,south, consumer ,Same Day,Desk,708.38,7,5,2,$708.38
+ORD-10807,2024-04-24,East ,SMB,Standard,Phone,709.11,8,10,3,$709.11
+ORD-10808,2024-05-25,west,Consumer,Express,Monitor,709.84,1,15,4,$709.84
+ORD-10809,2024-06-26,Central,Corporate,Same Day,Printer,710.57,2,20,5,$710.57
+ORD-10810,2024-07-27,North,Home Office,Standard,Laptop,711.30,3,0,1,$711.30
+ORD-10811,2024-08-28,south,SMB,Express,Chair,712.03,4,5,2,$712.03
+ORD-10812,2024-09-01,East ,Consumer,Same Day,Desk,712.76,5,10,3,$712.76
+ORD-10813,2024-10-02,west,Corporate,Standard,Phone,713.49,6,15,4,$713.49
+ORD-10814,2024-11-03,Central,Home Office,Express,Monitor,714.22,7,20,5,$714.22
+ORD-10815,2024-12-04,North,SMB,Same Day,Printer,714.95,8,0,1,$714.95
+ORD-10816,2024-01-05,south,Consumer,Standard,Laptop,715.68,1,,2,$715.68
+ORD-10817,2024-02-06,East ,Corporate,Express,Chair,716.41,2,10,,$716.41
+ORD-10818,2024-03-07,west,Home Office,Same Day,Desk,717.14,3,15,4,$717.14
+ORD-10819,2024-04-08,Central,SMB,Standard,Phone,717.87,4,20,5,$717.87
+ORD-10820,2024-05-09,North,Consumer,Express,Monitor,718.60,5,0,1,$718.60
+ORD-10821,2024-06-10,south,Corporate,Same Day,Printer,719.33,6,5,2,$719.33
+ORD-10822,2024-07-11,East ,Home Office,Standard,Laptop,720.06,7,10,3,$720.06
+ORD-10823,2024-08-12,west,SMB,Express,Chair,720.79,8,15,4,$720.79
+ORD-10824,2024-09-13,Central,Consumer,Same Day,Desk,721.52,1,20,5,$721.52
+ORD-10825,2024-10-14,North,Corporate,Standard,Phone,722.25,2,0,1,$722.25
+ORD-10826,2024-11-15,south,Home Office,Express,Monitor,722.98,3,5,2,$722.98
+ORD-10827,2024-12-16,East ,SMB,Same Day,Printer,723.71,4,10,3,$723.71
+ORD-10828,2024-01-17,,Consumer,Standard,Laptop,724.44,5,15,4,$724.44
+ORD-10829,2024-02-18,Central,Corporate,Express,Chair,725.17,6,20,5,$725.17
+ORD-10830,2024-03-19,North,Home Office,Same Day,Desk,725.90,7,0,1,$725.90
+ORD-10831,2024-04-20,south,SMB,Standard,Phone,726.63,8,5,2,$726.63
+ORD-10832,2024-05-21,East ,Consumer,Express,Monitor,727.36,1,10,3,$727.36
+ORD-10833,2024-06-22,west,Corporate,Same Day,Printer,728.09,2,,4,$728.09
+ORD-10834,2024-07-23,Central,Home Office,Standard,Laptop,728.82,3,20,5,$728.82
+ORD-10835,2024-08-24,North,SMB,Express,Chair,729.55,4,0,1,$729.55
+ORD-10836,2024-09-25,south,Consumer,Same Day,Desk,730.28,5,5,,$730.28
+ORD-10837,2024-10-26,East , consumer ,Standard,Phone,731.01,6,10,3,$731.01
+ORD-10838,2024-11-27,west,Home Office,Express,Monitor,731.74,7,15,4,$731.74
+ORD-10839,2024-12-28,Central,SMB,Same Day,Printer,732.47,8,20,5,$732.47
+ORD-10840,2024-01-01,North,Consumer,Standard,Laptop,733.20,1,0,1,$733.20
+ORD-10841,2024-02-02,south,Corporate,Express,Chair,733.93,2,5,2,$733.93
+ORD-10842,2024-03-03,East ,Home Office,Same Day,Desk,734.66,3,10,3,$734.66
+ORD-10843,2024-04-04,west,SMB,Standard,Phone,735.39,4,15,4,$735.39
+ORD-10844,2024-05-05,Central,Consumer,Express,Monitor,736.12,5,20,5,$736.12
+ORD-10845,2024-06-06,North,Corporate,Same Day,Printer,736.85,6,0,1,$736.85
+ORD-10846,2024-07-07,south,Home Office,Standard,Laptop,737.58,7,5,2,$737.58
+ORD-10847,2024-08-08,East ,SMB,Express,Chair,738.31,8,10,3,$738.31
+ORD-10848,2024-09-09,west,Consumer,Same Day,Desk,739.04,1,15,4,$739.04
+ORD-10849,2024-10-10,Central,Corporate,Standard,Phone,739.77,2,20,5,$739.77
+ORD-10850,2024-11-11,North,Home Office,Express,Monitor,740.50,3,,1,$740.50
+ORD-10851,2024-12-12,,SMB,Same Day,Printer,741.23,4,5,2,$741.23
+ORD-10852,2024-01-13,East ,Consumer,Standard,Laptop,741.96,5,10,3,$741.96
+ORD-10853,2024-02-14,west,Corporate,Express,Chair,742.69,6,15,4,$742.69
+ORD-10854,2024-03-15,Central,Home Office,Same Day,Desk,743.42,7,20,5,$743.42
+ORD-10855,2024-04-16,North,SMB,Standard,Phone,744.15,8,0,,$744.15
+ORD-10856,2024-05-17,south,Consumer,Express,Monitor,744.88,1,5,2,$744.88
+ORD-10857,2024-06-18,East ,Corporate,Same Day,Printer,745.61,2,10,3,$745.61
+ORD-10858,2024-07-19,west,Home Office,Standard,Laptop,746.34,3,15,4,$746.34
+ORD-10859,2024-08-20,Central,SMB,Express,Chair,747.07,4,20,5,$747.07
+ORD-10860,2024-09-21,North,Consumer,Same Day,Desk,747.80,5,0,1,$747.80
+ORD-10861,2024-10-22,south,Corporate,Standard,Phone,748.53,6,5,2,$748.53
+ORD-10862,2024-11-23,East ,Home Office,Express,Monitor,749.26,7,10,3,$749.26
+ORD-10863,2024-12-24,west,SMB,Same Day,Printer,749.99,8,15,4,$749.99
+ORD-10864,2024-01-25,Central,Consumer,Standard,Laptop,750.72,1,20,5,$750.72
+ORD-10865,2024-02-26,North,Corporate,Express,Chair,751.45,2,0,1,$751.45
+ORD-10866,2024-03-27,south,Home Office,Same Day,Desk,752.18,3,5,2,$752.18
+ORD-10867,2024-04-28,East ,SMB,Standard,Phone,752.91,4,,3,$752.91
+ORD-10868,2024-05-01,west, consumer ,Express,Monitor,753.64,5,15,4,$753.64
+ORD-10869,2024-06-02,Central,Corporate,Same Day,Printer,754.37,6,20,5,$754.37
+ORD-10870,2024-07-03,North,Home Office,Standard,Laptop,755.10,7,0,1,$755.10
+ORD-10871,2024-08-04,south,SMB,Express,Chair,3779.15,8,5,2,$3779.15
+ORD-10872,2024-09-05,East ,Consumer,Same Day,Desk,756.56,1,10,3,$756.56
+ORD-10873,2024-10-06,west,Corporate,Standard,Phone,757.29,2,15,4,$757.29
+ORD-10874,2024-11-07,,Home Office,Express,Monitor,758.02,3,20,,$758.02
+ORD-10875,2024-12-08,North,SMB,Same Day,Printer,758.75,4,0,1,$758.75
+ORD-10876,2024-01-09,south,Consumer,Standard,Laptop,759.48,5,5,2,$759.48
+ORD-10877,2024-02-10,East ,Corporate,Express,Chair,760.21,6,10,3,$760.21
+ORD-10878,2024-03-11,west,Home Office,Same Day,Desk,760.94,7,15,4,$760.94
+ORD-10879,2024-04-12,Central,SMB,Standard,Phone,761.67,8,20,5,$761.67
+ORD-10880,2024-05-13,North,Consumer,Express,Monitor,762.40,1,0,1,$762.40
+ORD-10881,2024-06-14,south,Corporate,Same Day,Printer,763.13,2,5,2,$763.13
+ORD-10882,2024-07-15,East ,Home Office,Standard,Laptop,763.86,3,10,3,$763.86
+ORD-10883,2024-08-16,west,SMB,Express,Chair,764.59,4,15,4,$764.59
+ORD-10884,2024-09-17,Central,Consumer,Same Day,Desk,765.32,5,,5,$765.32
+ORD-10885,2024-10-18,North,Corporate,Standard,Phone,766.05,6,0,1,$766.05
+ORD-10886,2024-11-19,south,Home Office,Express,Monitor,766.78,7,5,2,$766.78
+ORD-10887,2024-12-20,East ,SMB,Same Day,Printer,767.51,8,10,3,$767.51
+ORD-10888,2024-01-21,west,Consumer,Standard,Laptop,768.24,1,15,4,$768.24
+ORD-10889,2024-02-22,Central,Corporate,Express,Chair,768.97,2,20,5,$768.97
+ORD-10890,2024-03-23,North,Home Office,Same Day,Desk,769.70,3,0,1,$769.70
+ORD-10891,2024-04-24,south,SMB,Standard,Phone,770.43,4,5,2,$770.43
+ORD-10892,2024-05-25,East ,Consumer,Express,Monitor,771.16,5,10,3,$771.16
+ORD-10893,2024-06-26,west,Corporate,Same Day,Printer,771.89,6,15,,$771.89
+ORD-10894,2024-07-27,Central,Home Office,Standard,Laptop,772.62,7,20,5,$772.62
+ORD-10895,2024-08-28,North,SMB,Express,Chair,773.35,8,0,1,$773.35
+ORD-10896,2024-09-01,south,Consumer,Same Day,Desk,774.08,1,5,2,$774.08
+ORD-10897,2024-10-02,,Corporate,Standard,Phone,774.81,2,10,3,$774.81
+ORD-10898,2024-11-03,west,Home Office,Express,Monitor,775.54,3,15,4,$775.54
+ORD-10899,2024-12-04,Central, consumer ,Same Day,Printer,776.27,4,20,5,$776.27
+ORD-10900,2024-01-05,North,Consumer,Standard,Laptop,777.00,5,0,1,$777.00
+ORD-10901,2024-02-06,south,Corporate,Express,Chair,777.73,6,,2,$777.73
+ORD-10902,2024-03-07,East ,Home Office,Same Day,Desk,778.46,7,10,3,$778.46
+ORD-10903,2024-04-08,west,SMB,Standard,Phone,779.19,8,15,4,$779.19
+ORD-10904,2024-05-09,Central,Consumer,Express,Monitor,779.92,1,20,5,$779.92
+ORD-10905,2024-06-10,North,Corporate,Same Day,Printer,780.65,2,0,1,$780.65
+ORD-10906,2024-07-11,south,Home Office,Standard,Laptop,781.38,3,5,2,$781.38
+ORD-10907,2024-08-12,East ,SMB,Express,Chair,782.11,4,10,3,$782.11
+ORD-10908,2024-09-13,west,Consumer,Same Day,Desk,782.84,5,15,4,$782.84
+ORD-10909,2024-10-14,Central,Corporate,Standard,Phone,783.57,6,20,5,$783.57
+ORD-10910,2024-11-15,North,Home Office,Express,Monitor,784.30,7,0,1,$784.30
+ORD-10911,2024-12-16,south,SMB,Same Day,Printer,785.03,8,5,2,$785.03
+ORD-10912,2024-01-17,East ,Consumer,Standard,Laptop,785.76,1,10,,$785.76
+ORD-10913,2024-02-18,west,Corporate,Express,Chair,786.49,2,15,4,$786.49
+ORD-10914,2024-03-19,Central,Home Office,Same Day,Desk,787.22,3,20,5,$787.22
+ORD-10915,2024-04-20,North,SMB,Standard,Phone,787.95,4,0,1,$787.95
+ORD-10916,2024-05-21,south,Consumer,Express,Monitor,788.68,5,5,2,$788.68
+ORD-10917,2024-06-22,East ,Corporate,Same Day,Printer,789.41,6,10,3,$789.41
+ORD-10918,2024-07-23,west,Home Office,Standard,Laptop,790.14,7,,4,$790.14
+ORD-10919,2024-08-24,Central,SMB,Express,Chair,790.87,8,20,5,$790.87
+ORD-10920,2024-09-25,,Consumer,Same Day,Desk,791.60,1,0,1,$791.60
+ORD-10921,2024-10-26,south,Corporate,Standard,Phone,792.33,2,5,2,$792.33
+ORD-10922,2024-11-27,East ,Home Office,Express,Monitor,793.06,3,10,3,$793.06
+ORD-10923,2024-12-28,west,SMB,Same Day,Printer,793.79,4,15,4,$793.79
+ORD-10924,2024-01-01,Central,Consumer,Standard,Laptop,794.52,5,20,5,$794.52
+ORD-10925,2024-02-02,North,Corporate,Express,Chair,795.25,6,0,1,$795.25
+ORD-10926,2024-03-03,south,Home Office,Same Day,Desk,795.98,7,5,2,$795.98
+ORD-10927,2024-04-04,East ,SMB,Standard,Phone,796.71,8,10,3,$796.71
+ORD-10928,2024-05-05,west,Consumer,Express,Monitor,797.44,1,15,4,$797.44
+ORD-10929,2024-06-06,Central,Corporate,Same Day,Printer,798.17,2,20,5,$798.17
+ORD-10930,2024-07-07,North, consumer ,Standard,Laptop,798.90,3,0,1,$798.90
+ORD-10931,2024-08-08,south,SMB,Express,Chair,799.63,4,5,,$799.63
+ORD-10932,2024-09-09,East ,Consumer,Same Day,Desk,800.36,5,10,3,$800.36
+ORD-10933,2024-10-10,west,Corporate,Standard,Phone,801.09,6,15,4,$801.09
+ORD-10934,2024-11-11,Central,Home Office,Express,Monitor,801.82,7,20,5,$801.82
+ORD-10935,2024-12-12,North,SMB,Same Day,Printer,802.55,8,,1,$802.55
+ORD-10936,2024-01-13,south,Consumer,Standard,Laptop,803.28,1,5,2,$803.28
+ORD-10937,2024-02-14,East ,Corporate,Express,Chair,804.01,2,10,3,$804.01
+ORD-10938,2024-03-15,west,Home Office,Same Day,Desk,4023.70,3,15,4,$4023.70
+ORD-10939,2024-04-16,Central,SMB,Standard,Phone,805.47,4,20,5,$805.47
+ORD-10940,2024-05-17,North,Consumer,Express,Monitor,806.20,5,0,1,$806.20
+ORD-10941,2024-06-18,south,Corporate,Same Day,Printer,806.93,6,5,2,$806.93
+ORD-10942,2024-07-19,East ,Home Office,Standard,Laptop,807.66,7,10,3,$807.66
+ORD-10943,2024-08-20,,SMB,Express,Chair,808.39,8,15,4,$808.39
+ORD-10944,2024-09-21,Central,Consumer,Same Day,Desk,809.12,1,20,5,$809.12
+ORD-10945,2024-10-22,North,Corporate,Standard,Phone,809.85,2,0,1,$809.85
+ORD-10946,2024-11-23,south,Home Office,Express,Monitor,810.58,3,5,2,$810.58
+ORD-10947,2024-12-24,East ,SMB,Same Day,Printer,811.31,4,10,3,$811.31
+ORD-10948,2024-01-25,west,Consumer,Standard,Laptop,812.04,5,15,4,$812.04
+ORD-10949,2024-02-26,Central,Corporate,Express,Chair,812.77,6,20,5,$812.77
+ORD-10950,2024-03-27,North,Home Office,Same Day,Desk,813.50,7,0,,$813.50
+ORD-10951,2024-04-28,south,SMB,Standard,Phone,814.23,8,5,2,$814.23
+ORD-10952,2024-05-01,East ,Consumer,Express,Monitor,814.96,1,,3,$814.96
+ORD-10953,2024-06-02,west,Corporate,Same Day,Printer,815.69,2,15,4,$815.69
+ORD-10954,2024-07-03,Central,Home Office,Standard,Laptop,816.42,3,20,5,$816.42
+ORD-10955,2024-08-04,North,SMB,Express,Chair,817.15,4,0,1,$817.15
+ORD-10956,2024-09-05,south,Consumer,Same Day,Desk,817.88,5,5,2,$817.88
+ORD-10957,2024-10-06,East ,Corporate,Standard,Phone,818.61,6,10,3,$818.61
+ORD-10958,2024-11-07,west,Home Office,Express,Monitor,819.34,7,15,4,$819.34
+ORD-10959,2024-12-08,Central,SMB,Same Day,Printer,820.07,8,20,5,$820.07
+ORD-10960,2024-01-09,North,Consumer,Standard,Laptop,820.80,1,0,1,$820.80
+ORD-10961,2024-02-10,south, consumer ,Express,Chair,821.53,2,5,2,$821.53
+ORD-10962,2024-03-11,East ,Home Office,Same Day,Desk,822.26,3,10,3,$822.26
+ORD-10963,2024-04-12,west,SMB,Standard,Phone,822.99,4,15,4,$822.99
+ORD-10964,2024-05-13,Central,Consumer,Express,Monitor,823.72,5,20,5,$823.72
+ORD-10965,2024-06-14,North,Corporate,Same Day,Printer,824.45,6,0,1,$824.45
+ORD-10966,2024-07-15,,Home Office,Standard,Laptop,825.18,7,5,2,$825.18
+ORD-10967,2024-08-16,East ,SMB,Express,Chair,825.91,8,10,3,$825.91
+ORD-10968,2024-09-17,west,Consumer,Same Day,Desk,826.64,1,15,4,$826.64
+ORD-10969,2024-10-18,Central,Corporate,Standard,Phone,827.37,2,,,$827.37
+ORD-10970,2024-11-19,North,Home Office,Express,Monitor,828.10,3,0,1,$828.10
+ORD-10971,2024-12-20,south,SMB,Same Day,Printer,828.83,4,5,2,$828.83
+ORD-10972,2024-01-21,East ,Consumer,Standard,Laptop,829.56,5,10,3,$829.56
+ORD-10973,2024-02-22,west,Corporate,Express,Chair,830.29,6,15,4,$830.29
+ORD-10974,2024-03-23,Central,Home Office,Same Day,Desk,831.02,7,20,5,$831.02
+ORD-10975,2024-04-24,North,SMB,Standard,Phone,831.75,8,0,1,$831.75
+ORD-10976,2024-05-25,south,Consumer,Express,Monitor,832.48,1,5,2,$832.48
+ORD-10977,2024-06-26,East ,Corporate,Same Day,Printer,833.21,2,10,3,$833.21
+ORD-10978,2024-07-27,west,Home Office,Standard,Laptop,833.94,3,15,4,$833.94
+ORD-10979,2024-08-28,Central,SMB,Express,Chair,834.67,4,20,5,$834.67
+ORD-10980,2024-09-01,North,Consumer,Same Day,Desk,835.40,5,0,1,$835.40
+ORD-10981,2024-10-02,south,Corporate,Standard,Phone,836.13,6,5,2,$836.13
+ORD-10982,2024-11-03,East ,Home Office,Express,Monitor,836.86,7,10,3,$836.86
+ORD-10983,2024-12-04,west,SMB,Same Day,Printer,837.59,8,15,4,$837.59
+ORD-10984,2024-01-05,Central,Consumer,Standard,Laptop,838.32,1,20,5,$838.32
+ORD-10985,2024-02-06,North,Corporate,Express,Chair,839.05,2,0,1,$839.05
+ORD-10986,2024-03-07,south,Home Office,Same Day,Desk,839.78,3,,2,$839.78
+ORD-10987,2024-04-08,East ,SMB,Standard,Phone,840.51,4,10,3,$840.51
+ORD-10988,2024-05-09,west,Consumer,Express,Monitor,841.24,5,15,,$841.24
+ORD-10989,2024-06-10,,Corporate,Same Day,Printer,841.97,6,20,5,$841.97
+ORD-10990,2024-07-11,North,Home Office,Standard,Laptop,842.70,7,0,1,$842.70
+ORD-10991,2024-08-12,south,SMB,Express,Chair,843.43,8,5,2,$843.43
+ORD-10992,2024-09-13,East , consumer ,Same Day,Desk,844.16,1,10,3,$844.16
+ORD-10993,2024-10-14,west,Corporate,Standard,Phone,844.89,2,15,4,$844.89
+ORD-10994,2024-11-15,Central,Home Office,Express,Monitor,845.62,3,20,5,$845.62
+ORD-10995,2024-12-16,North,SMB,Same Day,Printer,846.35,4,0,1,$846.35
+ORD-10996,2024-01-17,south,Consumer,Standard,Laptop,847.08,5,5,2,$847.08
+ORD-10997,2024-02-18,East ,Corporate,Express,Chair,847.81,6,10,3,$847.81
+ORD-10998,2024-03-19,west,Home Office,Same Day,Desk,848.54,7,15,4,$848.54
+ORD-10999,2024-04-20,Central,SMB,Standard,Phone,849.27,8,20,5,$849.27
+ORD-11000,2024-05-21,North,Consumer,Express,Monitor,850.00,1,0,1,$850.00
+ORD-11001,2024-06-22,south,Corporate,Same Day,Printer,850.73,2,5,2,$850.73
+ORD-11002,2024-07-23,East ,Home Office,Standard,Laptop,851.46,3,10,3,$851.46
+ORD-11003,2024-08-24,west,SMB,Express,Chair,852.19,4,,4,$852.19
+ORD-11004,2024-09-25,Central,Consumer,Same Day,Desk,852.92,5,20,5,$852.92
+ORD-11005,2024-10-26,North,Corporate,Standard,Phone,4268.25,6,0,1,$4268.25
+ORD-11006,2024-11-27,south,Home Office,Express,Monitor,854.38,7,5,2,$854.38
+ORD-11007,2024-12-28,East ,SMB,Same Day,Printer,855.11,8,10,,$855.11
+ORD-11008,2024-01-01,west,Consumer,Standard,Laptop,855.84,1,15,4,$855.84
+ORD-11009,2024-02-02,Central,Corporate,Express,Chair,856.57,2,20,5,$856.57
+ORD-11010,2024-03-03,North,Home Office,Same Day,Desk,857.30,3,0,1,$857.30
+ORD-11011,2024-04-04,south,SMB,Standard,Phone,858.03,4,5,2,$858.03
+ORD-11012,2024-05-05,,Consumer,Express,Monitor,858.76,5,10,3,$858.76
+ORD-11013,2024-06-06,west,Corporate,Same Day,Printer,859.49,6,15,4,$859.49
+ORD-11014,2024-07-07,Central,Home Office,Standard,Laptop,860.22,7,20,5,$860.22
+ORD-11015,2024-08-08,North,SMB,Express,Chair,860.95,8,0,1,$860.95
+ORD-11016,2024-09-09,south,Consumer,Same Day,Desk,861.68,1,5,2,$861.68
+ORD-11017,2024-10-10,East ,Corporate,Standard,Phone,862.41,2,10,3,$862.41
+ORD-11018,2024-11-11,west,Home Office,Express,Monitor,863.14,3,15,4,$863.14
+ORD-11019,2024-12-12,Central,SMB,Same Day,Printer,863.87,4,20,5,$863.87
+ORD-11020,2024-01-13,North,Consumer,Standard,Laptop,864.60,5,,1,$864.60
+ORD-11021,2024-02-14,south,Corporate,Express,Chair,865.33,6,5,2,$865.33
+ORD-11022,2024-03-15,East ,Home Office,Same Day,Desk,866.06,7,10,3,$866.06
+ORD-11023,2024-04-16,west, consumer ,Standard,Phone,866.79,8,15,4,$866.79
+ORD-11024,2024-05-17,Central,Consumer,Express,Monitor,867.52,1,20,5,$867.52
+ORD-11025,2024-06-18,North,Corporate,Same Day,Printer,868.25,2,0,1,$868.25
+ORD-11026,2024-07-19,south,Home Office,Standard,Laptop,868.98,3,5,,$868.98
+ORD-11027,2024-08-20,East ,SMB,Express,Chair,869.71,4,10,3,$869.71
+ORD-11028,2024-09-21,west,Consumer,Same Day,Desk,870.44,5,15,4,$870.44
+ORD-11029,2024-10-22,Central,Corporate,Standard,Phone,871.17,6,20,5,$871.17
+ORD-11030,2024-11-23,North,Home Office,Express,Monitor,871.90,7,0,1,$871.90
+ORD-11031,2024-12-24,south,SMB,Same Day,Printer,872.63,8,5,2,$872.63
+ORD-11032,2024-01-25,East ,Consumer,Standard,Laptop,873.36,1,10,3,$873.36
+ORD-11033,2024-02-26,west,Corporate,Express,Chair,874.09,2,15,4,$874.09
+ORD-11034,2024-03-27,Central,Home Office,Same Day,Desk,874.82,3,20,5,$874.82
+ORD-11035,2024-04-28,,SMB,Standard,Phone,875.55,4,0,1,$875.55
+ORD-11036,2024-05-01,south,Consumer,Express,Monitor,876.28,5,5,2,$876.28
+ORD-11037,2024-06-02,East ,Corporate,Same Day,Printer,877.01,6,,3,$877.01
+ORD-11038,2024-07-03,west,Home Office,Standard,Laptop,877.74,7,15,4,$877.74
+ORD-11039,2024-08-04,Central,SMB,Express,Chair,878.47,8,20,5,$878.47
+ORD-11040,2024-09-05,North,Consumer,Same Day,Desk,879.20,1,0,1,$879.20
+ORD-11041,2024-10-06,south,Corporate,Standard,Phone,879.93,2,5,2,$879.93
+ORD-11042,2024-11-07,East ,Home Office,Express,Monitor,880.66,3,10,3,$880.66
+ORD-11043,2024-12-08,west,SMB,Same Day,Printer,881.39,4,15,4,$881.39
+ORD-11044,2024-01-09,Central,Consumer,Standard,Laptop,882.12,5,20,5,$882.12
+ORD-11045,2024-02-10,North,Corporate,Express,Chair,882.85,6,0,,$882.85
+ORD-11046,2024-03-11,south,Home Office,Same Day,Desk,883.58,7,5,2,$883.58
+ORD-11047,2024-04-12,East ,SMB,Standard,Phone,884.31,8,10,3,$884.31
+ORD-11048,2024-05-13,west,Consumer,Express,Monitor,885.04,1,15,4,$885.04
+ORD-11049,2024-06-14,Central,Corporate,Same Day,Printer,885.77,2,20,5,$885.77
+ORD-11050,2024-07-15,North,Home Office,Standard,Laptop,886.50,3,0,1,$886.50
+ORD-11051,2024-08-16,south,SMB,Express,Chair,887.23,4,5,2,$887.23
+ORD-11052,2024-09-17,East ,Consumer,Same Day,Desk,887.96,5,10,3,$887.96
+ORD-11053,2024-10-18,west,Corporate,Standard,Phone,888.69,6,15,4,$888.69
+ORD-11054,2024-11-19,Central, consumer ,Express,Monitor,889.42,7,,5,$889.42
+ORD-11055,2024-12-20,North,SMB,Same Day,Printer,890.15,8,0,1,$890.15
+ORD-11056,2024-01-21,south,Consumer,Standard,Laptop,890.88,1,5,2,$890.88
+ORD-11057,2024-02-22,East ,Corporate,Express,Chair,891.61,2,10,3,$891.61
+ORD-11058,2024-03-23,,Home Office,Same Day,Desk,892.34,3,15,4,$892.34
+ORD-11059,2024-04-24,Central,SMB,Standard,Phone,893.07,4,20,5,$893.07
+ORD-11060,2024-05-25,North,Consumer,Express,Monitor,893.80,5,0,1,$893.80
+ORD-11061,2024-06-26,south,Corporate,Same Day,Printer,894.53,6,5,2,$894.53
+ORD-11062,2024-07-27,East ,Home Office,Standard,Laptop,895.26,7,10,3,$895.26
+ORD-11063,2024-08-28,west,SMB,Express,Chair,895.99,8,15,4,$895.99
+ORD-11064,2024-09-01,Central,Consumer,Same Day,Desk,896.72,1,20,,$896.72
+ORD-11065,2024-10-02,North,Corporate,Standard,Phone,897.45,2,0,1,$897.45
+ORD-11066,2024-11-03,south,Home Office,Express,Monitor,898.18,3,5,2,$898.18
+ORD-11067,2024-12-04,East ,SMB,Same Day,Printer,898.91,4,10,3,$898.91
+ORD-11068,2024-01-05,west,Consumer,Standard,Laptop,899.64,5,15,4,$899.64
+ORD-11069,2024-02-06,Central,Corporate,Express,Chair,900.37,6,20,5,$900.37
+ORD-11070,2024-03-07,North,Home Office,Same Day,Desk,901.10,7,0,1,$901.10
+ORD-11071,2024-04-08,south,SMB,Standard,Phone,901.83,8,,2,$901.83
+ORD-11072,2024-05-09,East ,Consumer,Express,Monitor,4512.80,1,10,3,$4512.80
+ORD-11073,2024-06-10,west,Corporate,Same Day,Printer,903.29,2,15,4,$903.29
+ORD-11074,2024-07-11,Central,Home Office,Standard,Laptop,904.02,3,20,5,$904.02
+ORD-11075,2024-08-12,North,SMB,Express,Chair,904.75,4,0,1,$904.75
+ORD-11076,2024-09-13,south,Consumer,Same Day,Desk,905.48,5,5,2,$905.48
+ORD-11077,2024-10-14,East ,Corporate,Standard,Phone,906.21,6,10,3,$906.21
+ORD-11078,2024-11-15,west,Home Office,Express,Monitor,906.94,7,15,4,$906.94
+ORD-11079,2024-12-16,Central,SMB,Same Day,Printer,907.67,8,20,5,$907.67
+ORD-11080,2024-01-17,North,Consumer,Standard,Laptop,908.40,1,0,1,$908.40
+ORD-11081,2024-02-18,,Corporate,Express,Chair,909.13,2,5,2,$909.13
+ORD-11082,2024-03-19,East ,Home Office,Same Day,Desk,909.86,3,10,3,$909.86
+ORD-11083,2024-04-20,west,SMB,Standard,Phone,910.59,4,15,,$910.59
+ORD-11084,2024-05-21,Central,Consumer,Express,Monitor,911.32,5,20,5,$911.32
+ORD-11085,2024-06-22,North, consumer ,Same Day,Printer,912.05,6,0,1,$912.05
+ORD-11086,2024-07-23,south,Home Office,Standard,Laptop,912.78,7,5,2,$912.78
+ORD-11087,2024-08-24,East ,SMB,Express,Chair,913.51,8,10,3,$913.51
+ORD-11088,2024-09-25,west,Consumer,Same Day,Desk,914.24,1,,4,$914.24
+ORD-11089,2024-10-26,Central,Corporate,Standard,Phone,914.97,2,20,5,$914.97
+ORD-11090,2024-11-27,North,Home Office,Express,Monitor,915.70,3,0,1,$915.70
+ORD-11091,2024-12-28,south,SMB,Same Day,Printer,916.43,4,5,2,$916.43
+ORD-11092,2024-01-01,East ,Consumer,Standard,Laptop,917.16,5,10,3,$917.16
+ORD-11093,2024-02-02,west,Corporate,Express,Chair,917.89,6,15,4,$917.89
+ORD-11094,2024-03-03,Central,Home Office,Same Day,Desk,918.62,7,20,5,$918.62
+ORD-11095,2024-04-04,North,SMB,Standard,Phone,919.35,8,0,1,$919.35
+ORD-11096,2024-05-05,south,Consumer,Express,Monitor,920.08,1,5,2,$920.08
+ORD-11097,2024-06-06,East ,Corporate,Same Day,Printer,920.81,2,10,3,$920.81
+ORD-11098,2024-07-07,west,Home Office,Standard,Laptop,921.54,3,15,4,$921.54
+ORD-11099,2024-08-08,Central,SMB,Express,Chair,922.27,4,20,5,$922.27
+ORD-11100,2024-09-09,North,Consumer,Same Day,Desk,923.00,5,0,1,$923.00
+ORD-11101,2024-10-10,south,Corporate,Standard,Phone,923.73,6,5,2,$923.73
+ORD-11102,2024-11-11,East ,Home Office,Express,Monitor,924.46,7,10,,$924.46
+ORD-11103,2024-12-12,west,SMB,Same Day,Printer,925.19,8,15,4,$925.19
+ORD-11104,2024-01-13,,Consumer,Standard,Laptop,925.92,1,20,5,$925.92
+ORD-11105,2024-02-14,North,Corporate,Express,Chair,926.65,2,,1,$926.65
+ORD-11106,2024-03-15,south,Home Office,Same Day,Desk,927.38,3,5,2,$927.38
+ORD-11107,2024-04-16,East ,SMB,Standard,Phone,928.11,4,10,3,$928.11
+ORD-11108,2024-05-17,west,Consumer,Express,Monitor,928.84,5,15,4,$928.84
+ORD-11109,2024-06-18,Central,Corporate,Same Day,Printer,929.57,6,20,5,$929.57
+ORD-11110,2024-07-19,North,Home Office,Standard,Laptop,930.30,7,0,1,$930.30
+ORD-11111,2024-08-20,south,SMB,Express,Chair,931.03,8,5,2,$931.03
+ORD-11112,2024-09-21,East ,Consumer,Same Day,Desk,931.76,1,10,3,$931.76
+ORD-11113,2024-10-22,west,Corporate,Standard,Phone,932.49,2,15,4,$932.49
+ORD-11114,2024-11-23,Central,Home Office,Express,Monitor,933.22,3,20,5,$933.22
+ORD-11115,2024-12-24,North,SMB,Same Day,Printer,933.95,4,0,1,$933.95
+ORD-11116,2024-01-25,south, consumer ,Standard,Laptop,934.68,5,5,2,$934.68
+ORD-11117,2024-02-26,East ,Corporate,Express,Chair,935.41,6,10,3,$935.41
+ORD-11118,2024-03-27,west,Home Office,Same Day,Desk,936.14,7,15,4,$936.14
+ORD-11119,2024-04-28,Central,SMB,Standard,Phone,936.87,8,20,5,$936.87
+ORD-11120,2024-05-01,North,Consumer,Express,Monitor,937.60,1,0,1,$937.60
+ORD-11121,2024-06-02,south,Corporate,Same Day,Printer,938.33,2,5,,$938.33
+ORD-11122,2024-07-03,East ,Home Office,Standard,Laptop,939.06,3,,3,$939.06
+ORD-11123,2024-08-04,west,SMB,Express,Chair,939.79,4,15,4,$939.79
+ORD-11124,2024-09-05,Central,Consumer,Same Day,Desk,940.52,5,20,5,$940.52
+ORD-11125,2024-10-06,North,Corporate,Standard,Phone,941.25,6,0,1,$941.25
+ORD-11126,2024-11-07,south,Home Office,Express,Monitor,941.98,7,5,2,$941.98
+ORD-11127,2024-12-08,,SMB,Same Day,Printer,942.71,8,10,3,$942.71
+ORD-11128,2024-01-09,west,Consumer,Standard,Laptop,943.44,1,15,4,$943.44
+ORD-11129,2024-02-10,Central,Corporate,Express,Chair,944.17,2,20,5,$944.17
+ORD-11130,2024-03-11,North,Home Office,Same Day,Desk,944.90,3,0,1,$944.90
+ORD-11131,2024-04-12,south,SMB,Standard,Phone,945.63,4,5,2,$945.63
+ORD-11132,2024-05-13,East ,Consumer,Express,Monitor,946.36,5,10,3,$946.36
+ORD-11133,2024-06-14,west,Corporate,Same Day,Printer,947.09,6,15,4,$947.09
+ORD-11134,2024-07-15,Central,Home Office,Standard,Laptop,947.82,7,20,5,$947.82
+ORD-11135,2024-08-16,North,SMB,Express,Chair,948.55,8,0,1,$948.55
+ORD-11136,2024-09-17,south,Consumer,Same Day,Desk,949.28,1,5,2,$949.28
+ORD-11137,2024-10-18,East ,Corporate,Standard,Phone,950.01,2,10,3,$950.01
+ORD-11138,2024-11-19,west,Home Office,Express,Monitor,950.74,3,15,4,$950.74
+ORD-11139,2024-12-20,Central,SMB,Same Day,Printer,4757.35,4,,5,$4757.35
+ORD-11140,2024-01-21,North,Consumer,Standard,Laptop,952.20,5,0,,$952.20
+ORD-11141,2024-02-22,south,Corporate,Express,Chair,952.93,6,5,2,$952.93
+ORD-11142,2024-03-23,East ,Home Office,Same Day,Desk,953.66,7,10,3,$953.66
+ORD-11143,2024-04-24,west,SMB,Standard,Phone,954.39,8,15,4,$954.39
+ORD-11144,2024-05-25,Central,Consumer,Express,Monitor,955.12,1,20,5,$955.12
+ORD-11145,2024-06-26,North,Corporate,Same Day,Printer,955.85,2,0,1,$955.85
+ORD-11146,2024-07-27,south,Home Office,Standard,Laptop,956.58,3,5,2,$956.58
+ORD-11147,2024-08-28,East , consumer ,Express,Chair,957.31,4,10,3,$957.31
+ORD-11148,2024-09-01,west,Consumer,Same Day,Desk,958.04,5,15,4,$958.04
+ORD-11149,2024-10-02,Central,Corporate,Standard,Phone,958.77,6,20,5,$958.77
+ORD-11150,2024-11-03,,Home Office,Express,Monitor,959.50,7,0,1,$959.50
+ORD-11151,2024-12-04,south,SMB,Same Day,Printer,960.23,8,5,2,$960.23
+ORD-11152,2024-01-05,East ,Consumer,Standard,Laptop,960.96,1,10,3,$960.96
+ORD-11153,2024-02-06,west,Corporate,Express,Chair,961.69,2,15,4,$961.69
+ORD-11154,2024-03-07,Central,Home Office,Same Day,Desk,962.42,3,20,5,$962.42
+ORD-11155,2024-04-08,North,SMB,Standard,Phone,963.15,4,0,1,$963.15
+ORD-11156,2024-05-09,south,Consumer,Express,Monitor,963.88,5,,2,$963.88
+ORD-11157,2024-06-10,East ,Corporate,Same Day,Printer,964.61,6,10,3,$964.61
+ORD-11158,2024-07-11,west,Home Office,Standard,Laptop,965.34,7,15,4,$965.34
+ORD-11159,2024-08-12,Central,SMB,Express,Chair,966.07,8,20,,$966.07
+ORD-11160,2024-09-13,North,Consumer,Same Day,Desk,966.80,1,0,1,$966.80
+ORD-11161,2024-10-14,south,Corporate,Standard,Phone,967.53,2,5,2,$967.53
+ORD-11162,2024-11-15,East ,Home Office,Express,Monitor,968.26,3,10,3,$968.26
+ORD-11163,2024-12-16,west,SMB,Same Day,Printer,968.99,4,15,4,$968.99
+ORD-11164,2024-01-17,Central,Consumer,Standard,Laptop,969.72,5,20,5,$969.72
+ORD-11165,2024-02-18,North,Corporate,Express,Chair,970.45,6,0,1,$970.45
+ORD-11166,2024-03-19,south,Home Office,Same Day,Desk,971.18,7,5,2,$971.18
+ORD-11167,2024-04-20,East ,SMB,Standard,Phone,971.91,8,10,3,$971.91
+ORD-11168,2024-05-21,west,Consumer,Express,Monitor,972.64,1,15,4,$972.64
+ORD-11169,2024-06-22,Central,Corporate,Same Day,Printer,973.37,2,20,5,$973.37
+ORD-11170,2024-07-23,North,Home Office,Standard,Laptop,974.10,3,0,1,$974.10
+ORD-11171,2024-08-24,south,SMB,Express,Chair,974.83,4,5,2,$974.83
+ORD-11172,2024-09-25,East ,Consumer,Same Day,Desk,975.56,5,10,3,$975.56
+ORD-11173,2024-10-26,,Corporate,Standard,Phone,976.29,6,,4,$976.29
+ORD-11174,2024-11-27,Central,Home Office,Express,Monitor,977.02,7,20,5,$977.02
+ORD-11175,2024-12-28,North,SMB,Same Day,Printer,977.75,8,0,1,$977.75
+ORD-11176,2024-01-01,south,Consumer,Standard,Laptop,978.48,1,5,2,$978.48
+ORD-11177,2024-02-02,East ,Corporate,Express,Chair,979.21,2,10,3,$979.21
+ORD-11178,2024-03-03,west, consumer ,Same Day,Desk,979.94,3,15,,$979.94
+ORD-11179,2024-04-04,Central,SMB,Standard,Phone,980.67,4,20,5,$980.67
+ORD-11180,2024-05-05,North,Consumer,Express,Monitor,981.40,5,0,1,$981.40
+ORD-10001,2024-02-02,south,Corporate,Express,Chair,120.73,2,5,2,$120.73
+ORD-10002,2024-03-03,East ,Home Office,Same Day,Desk,121.46,3,10,3,$121.46
+ORD-10003,2024-04-04,west,SMB,Standard,Phone,122.19,4,15,4,$122.19
+ORD-10004,2024-05-05,Central,Consumer,Express,Monitor,122.92,5,20,5,$122.92
+ORD-10005,2024-06-06,North,Corporate,Same Day,Printer,123.65,6,0,1,$123.65
+ORD-10006,2024-07-07,south,Home Office,Standard,Laptop,124.38,7,5,2,$124.38
+ORD-10007,2024-08-08,East ,SMB,Express,Chair,125.11,8,10,3,$125.11
+ORD-10008,2024-09-09,west,Consumer,Same Day,Desk,125.84,1,15,4,$125.84
+ORD-10009,2024-10-10,Central,Corporate,Standard,Phone,126.57,2,20,5,$126.57
+ORD-10010,2024-11-11,North,Home Office,Express,Monitor,127.30,3,0,1,$127.30
+ORD-10011,2024-12-12,south,SMB,Same Day,Printer,128.03,4,5,2,$128.03
+ORD-10012,2024-01-13,East ,Consumer,Standard,Laptop,128.76,5,10,3,$128.76
+ORD-10013,2024-02-14,west,Corporate,Express,Chair,129.49,6,15,4,$129.49
+ORD-10014,2024-03-15,Central,Home Office,Same Day,Desk,130.22,7,20,5,$130.22
+ORD-10015,2024-04-16,North,SMB,Standard,Phone,130.95,8,0,1,$130.95
+ORD-10016,2024-05-17,south,Consumer,Express,Monitor,131.68,1,5,2,$131.68
+ORD-10017,2024-06-18,East ,Corporate,Same Day,Printer,132.41,2,,3,$132.41
+ORD-10018,2024-07-19,west,Home Office,Standard,Laptop,133.14,3,15,4,$133.14
+ORD-10019,2024-08-20,Central,SMB,Express,Chair,133.87,4,20,,$133.87
+ORD-10020,2024-09-21,North,Consumer,Same Day,Desk,134.60,5,0,1,$134.60
