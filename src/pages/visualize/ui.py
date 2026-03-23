@@ -5,7 +5,6 @@ from pathlib import Path
 import streamlit as st
 
 from src.data.functions.store import get_current_data
-from src.data.functions.styles import apply_css
 from src.data.ui import render_workspace_panel
 from src.pages.visualize.functions.builder import render_visualization_builder
 

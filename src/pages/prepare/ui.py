@@ -5,7 +5,6 @@ from pathlib import Path
 import streamlit as st
 
 from src.data.functions.store import get_current_data
-from src.data.functions.styles import apply_css
 from src.data.ui import render_workspace_panel
 from src.pages.prepare.functions.categorical_tools import render_categorical_tab
 from src.pages.prepare.functions.column_operations import render_columns_tab
@@ -21,7 +20,6 @@ PREPARE_CSS_PATH = Path(__file__).with_name("prepare.css")
 
 def render_prepare_page() -> None:
     """Render the full cleaning and preparation studio."""
-    apply_css(PREPARE_CSS_PATH)
     left, right = st.columns([3.2, 1.2])
     df = get_current_data()
 

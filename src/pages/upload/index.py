@@ -5,7 +5,6 @@ from pathlib import Path
 import streamlit as st
 
 from src.data.functions.store import get_current_data
-from src.data.functions.styles import apply_css
 from src.data.ui import render_workspace_panel
 from src.pages.upload.components.overview import render_overview
 from src.pages.upload.components.sources import render_source_tabs
@@ -20,7 +19,7 @@ def render_upload_page() -> None:
             <section>
                 <h1>Upload &amp; Overview</h1>
                 <p>
-                    Load a CSV, Excel, JSON file, a public Google Sheet, or one of the bundled sample datasets.
+                    Load a CSV, Excel, JSON file or one of the sample datasets.
                 </p>
             </section>
             """,
