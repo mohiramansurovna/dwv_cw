@@ -1,20 +1,15 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 import streamlit as st
 
-from src.data.functions.store import get_current_data
-from src.data.ui import render_workspace_panel
-from src.pages.export.functions.content import render_export_content
-
-
-EXPORT_CSS_PATH = Path(__file__).with_name("export.css")
+from src.data.store import get_store
+from src.sidebars.workspace import render_workspace
+from src.pages.export.components.content import render_export_content
 
 
 def render_export_page() -> None:
     left, right = st.columns([3.2, 1.2])
-    df = get_current_data()
+    store=get_store()
 
     with left:
         st.markdown(
@@ -29,10 +24,10 @@ def render_export_page() -> None:
             unsafe_allow_html=True,
         )
 
-        if df is None:
+        if store['current_df'] is None:
             st.info("Load a dataset before exporting.")
         else:
-            render_export_content(df)
+            render_export_content(store['current_df'])
 
     with right:
-        render_workspace_panel()
+        render_workspace()

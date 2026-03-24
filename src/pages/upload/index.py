@@ -1,11 +1,8 @@
 from __future__ import annotations
-
-from pathlib import Path
-
 import streamlit as st
 
-from src.data.functions.store import get_current_data
-from src.data.ui import render_workspace_panel
+from src.data.store import get_store
+from src.sidebars.workspace import render_workspace
 from src.pages.upload.components.overview import render_overview
 from src.pages.upload.components.sources import render_source_tabs
 
@@ -28,10 +25,10 @@ def render_upload_page() -> None:
 
         render_source_tabs()
 
-        df = get_current_data()
-        if df is not None:
+        store = get_store()
+        if store['current_df'] is not None:
             st.divider()
-            render_overview(df)
+            render_overview(store['current_df'])
 
     with right:
-        render_workspace_panel()
+        render_workspace()

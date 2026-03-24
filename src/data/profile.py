@@ -1,12 +1,11 @@
 from __future__ import annotations
 
-import numpy as np
-import pandas as pd
-import streamlit as st
+import numpy as np  # pyright: ignore[reportMissingImports]
+import pandas as pd # pyright: ignore[reportMissingModuleSource]
+import streamlit as st # pyright: ignore[reportMissingImports]
 
 
 def infer_column_groups(df: pd.DataFrame) -> dict[str, list[str]]:
-    """Split columns into numeric, categorical, and datetime buckets for the UI."""
     return {
         "numeric": df.select_dtypes(include=np.number).columns.tolist(),
         "categorical": df.select_dtypes(
@@ -18,7 +17,6 @@ def infer_column_groups(df: pd.DataFrame) -> dict[str, list[str]]:
 
 @st.cache_data(show_spinner=False)
 def profile_dataframe(df: pd.DataFrame) -> dict[str, pd.DataFrame | int]:
-    """Compute reusable profiling tables shown across upload and export pages."""
     groups = infer_column_groups(df)
 
     dtypes_df = (
@@ -27,7 +25,7 @@ def profile_dataframe(df: pd.DataFrame) -> dict[str, pd.DataFrame | int]:
                 "column": df.columns,
                 "dtype": [str(dtype) for dtype in df.dtypes],
                 "nulls": df.isna().sum().tolist(),
-                "Nulls in percentage": (df.isna().mean() * 100).round(2).astype(str) + " %",
+                "nulls(%)": (df.isna().mean() * 100).round(2).astype(str) + " %",
                 "unique_values": df.nunique(dropna=False).tolist(),
             }
         )
@@ -39,7 +37,7 @@ def profile_dataframe(df: pd.DataFrame) -> dict[str, pd.DataFrame | int]:
             {
                 "column": df.columns,
                 "missing_count": df.isna().sum().tolist(),
-                "missing_pct": ((df.isna().mean() * 100).round(2)).tolist(),
+                "missing(%)": ((df.isna().mean() * 100).round(2)).tolist(),
             }
         )
         .sort_values(["missing_count", "column"], ascending=[False, True])

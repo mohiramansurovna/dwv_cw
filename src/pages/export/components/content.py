@@ -3,17 +3,21 @@ from __future__ import annotations
 import pandas as pd
 import streamlit as st
 
-from src.data.functions.exporters import json_to_bytes, report_to_markdown, text_to_bytes
-from src.data.functions.store import get_recipe_json
-from src.data.functions.transforms import dataframe_to_csv_bytes, dataframe_to_excel_bytes
-from src.pages.export.functions.charts import build_charts_zip
-from src.pages.export.functions.report import build_safe_export_report
+from src.pages.export.components.transforms import (
+    dataframe_to_csv_bytes, 
+    dataframe_to_excel_bytes, 
+    json_to_bytes, 
+    report_to_markdown, 
+    text_to_bytes,
+    get_recipe_json
+)
+from src.pages.export.components.charts import build_charts_zip
+from src.pages.export.components.report import build_report
 from src.pages.visualize.functions.state import ensure_saved_charts
 
 
 def render_export_content(df: pd.DataFrame) -> None:
-    """Render export metrics, download buttons, and the report preview."""
-    safe_report = build_safe_export_report(df)
+    safe_report = build_report(df)
     saved_charts = ensure_saved_charts()
 
     summary_cols = st.columns(4)
@@ -73,11 +77,12 @@ def render_export_content(df: pd.DataFrame) -> None:
     st.subheader("Final dataset preview")
     st.dataframe(df.head(50), use_container_width=True)
 
-    st.subheader("Report preview")
-    st.json(safe_report)
 
     if saved_charts:
         st.subheader("Saved charts")
         for chart in saved_charts:
             st.caption(chart["filename"])
             st.image(chart["image_bytes"], use_container_width=True)
+    
+    st.subheader("Report preview")
+    st.json(safe_report)

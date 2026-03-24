@@ -1,29 +1,27 @@
 from __future__ import annotations
+import streamlit as st  # pyright: ignore[reportMissingImports]
 
-import streamlit as st
+from src.data.store import get_store
+from src.sidebars.history_actions import clear_session, reset_all, undo_last_step
 
-from src.data.functions.store import (
-    clear_session,
-    get_current_data,
-    get_source_name,
-    get_transform_log,
-    has_data,
-    reset_all,
-    undo_last_step,
-)
+def render_source()->None:
+    st.subheader("Workspace")
+    store=get_store()
+    st.caption(f"Source: {store['source_name']}" if store['source_name'] else "Source: no dataset loaded")
 
+    if store['current_df'] is not None:
+        rows_col, cols_col = st.columns(2)
+        rows_col.metric("Rows", f"{store['current_df'].shape[0]:,}")
+        cols_col.metric("Cols", store['current_df'].shape[1])
 
-def render_history_panel_content() -> None:
-    """showing changes history"""
+def render_history()->None:
     st.subheader("History")
-
-    log = get_transform_log()
-    if not log:
+    store=get_store()
+    if not store['transform_log']:
         st.caption("No changes yet")
         return
-
-    st.caption(f"{len(log)} step(s) recorded")
-    for index, item in enumerate(reversed(log), start=1):
+    st.caption(f"{len(store['transform_log'])} step(s) recorded")
+    for index, item in enumerate(reversed(store['transform_log']), start=1):
         with st.expander(f"{index}. {item['operation']}", expanded=False):
             st.caption(item["timestamp"])
             st.write(f"**Affected columns:** {', '.join(item['affected_columns']) or '-'}")
@@ -34,37 +32,28 @@ def render_history_panel_content() -> None:
                 st.write(f"**Impact preview:** {item['preview']}")
 
 
-def render_workspace_panel_content() -> None:
-    """Render dataset status, workspace actions, and the transformation history."""
-    st.subheader("Workspace")
+def render_buttons() -> None:
+    store = get_store()
 
-    source_name = get_source_name()
-    st.caption(f"Source: {source_name}" if source_name else "Source: no dataset loaded")
-
-    df = get_current_data()
-    if df is not None:
-        rows_col, cols_col = st.columns(2)
-        rows_col.metric("Rows", f"{df.shape[0]:,}")
-        cols_col.metric("Cols", df.shape[1])
-
-    st.divider()
-    render_history_panel_content()
+    has_data = store["current_df"] is not None
+    has_history = len(store["transform_log"]) > 0
 
     undo_clicked = st.button(
         "Undo last step",
         use_container_width=True,
-        disabled=not has_data() or not get_transform_log(),
+        disabled=not has_data or not has_history,
     )
     if undo_clicked:
         if undo_last_step():
             st.success("Last transformation removed.")
             st.rerun()
-        st.warning("No step available to undo.")
+        else:
+            st.warning("No step available to undo.")
 
     reset_clicked = st.button(
         "Reset to original dataset",
         use_container_width=True,
-        disabled=not has_data(),
+        disabled=not has_data,
     )
     if reset_clicked:
         if reset_all():
@@ -80,3 +69,14 @@ def render_workspace_panel_content() -> None:
         st.success("Session cleared.")
         st.rerun()
 
+
+
+def render_workspace() -> None:
+    render_source()
+    st.divider()
+    render_history()
+    render_buttons()
+
+    
+
+    

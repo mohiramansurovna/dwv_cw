@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import streamlit as st
+import streamlit as st  # pyright: ignore[reportMissingImports]
 
 
 PAGE_OPTIONS: list[tuple[str, str, str]] = [
@@ -11,7 +11,7 @@ PAGE_OPTIONS: list[tuple[str, str, str]] = [
 ]
 
 
-def render_navigation_sidebar(default_page: str = "upload") -> str:
+def render_navigation(default_page: str = "upload") -> str:
     page_keys = [key for key, _, _ in PAGE_OPTIONS]
 
     if "active_page" not in st.session_state or st.session_state["active_page"] not in page_keys:

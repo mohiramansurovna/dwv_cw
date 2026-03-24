@@ -5,7 +5,7 @@ from collections.abc import Iterable
 import pandas as pd
 import streamlit as st
 
-from src.data.functions.profile import infer_column_groups
+from src.data.profile import infer_column_groups
 from src.pages.visualize.functions.charting import build_chart
 from src.pages.visualize.functions.filters import apply_filters
 from src.pages.visualize.functions.state import ensure_saved_charts, save_chart_image

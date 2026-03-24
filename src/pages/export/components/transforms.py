@@ -1,10 +1,10 @@
-from __future__ import annotations
+# from __future__ import annotations
 
 import json
 from io import BytesIO
 
 import pandas as pd
-
+from src.data.store import get_store
 
 def make_json_safe(value):
     """Convert nested pandas/numpy values into plain JSON-friendly Python values."""
@@ -61,15 +61,24 @@ def json_to_bytes(payload: dict | list) -> bytes:
     """Encode a dict/list payload as downloadable UTF-8 JSON bytes."""
     return json.dumps(make_json_safe(payload), indent=2).encode("utf-8")
 
-
 def text_to_bytes(payload: str) -> bytes:
     """Encode plain text as UTF-8 bytes for download buttons."""
     return payload.encode("utf-8")
 
 
-def dataframe_to_excel_bytes(df: pd.DataFrame, sheet_name: str = "data") -> bytes:
-    """Create a downloadable Excel workbook in memory from a dataframe."""
+def dataframe_to_csv_bytes(df: pd.DataFrame) -> bytes:
+    """Serialize a dataframe into CSV bytes for download buttons."""
+    return df.to_csv(index=False).encode("utf-8")
+
+
+def dataframe_to_excel_bytes(df: pd.DataFrame) -> bytes:
+    """Serialize a dataframe into an in-memory Excel file for download buttons."""
     buffer = BytesIO()
     with pd.ExcelWriter(buffer, engine="openpyxl") as writer:
-        df.to_excel(writer, index=False, sheet_name=sheet_name)
+        df.to_excel(writer, index=False, sheet_name="cleaned_data")
     return buffer.getvalue()
+
+def get_recipe_json() -> str:
+    store=get_store()
+    """Serialize the transformation log as the reproducible recipe output."""
+    return json.dumps(store['transform_log'], indent=2)
