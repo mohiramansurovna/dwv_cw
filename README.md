@@ -25,7 +25,7 @@ A Streamlit app for uploading a dataset, profiling it, cleaning and transforming
 ## Project structure
 
 ```text
-streamlit_app.py
+app.py
 src/
   data/
     functions/
