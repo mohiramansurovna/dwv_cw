@@ -1,26 +1,35 @@
-# Data Workflow Studio
-
-A Streamlit app for uploading a dataset, profiling it, cleaning and transforming a working copy, building matplotlib charts, and exporting the final dataset together with a transformation report and reproducible recipe.
-
-## What is included
-
-- Upload support for CSV, Excel, JSON, and public Google Sheets
-- Two bundled sample datasets in `sample_data/`
-- Upload & Overview page with shape, dtypes, summary stats, missingness, duplicates, and outlier summaries
-- Cleaning & Preparation Studio with:
-  - null handling
-  - duplicate removal
-  - type conversion and parsing
-  - categorical standardization and mapping
-  - rare category grouping
-  - one-hot encoding
-  - outlier capping or row removal
-  - min-max and z-score scaling
-  - rename/drop/formula/binning column operations
-  - validation rules and exportable violation tables
-- Visualization Builder using `matplotlib`
-- Export page for cleaned CSV, Excel, transformation report, and JSON recipe
-- Undo last step and reset-to-original workflow support
+# DWV CW
+ 
+## What This App Is For
+ 
+This project is a **Streamlit data workflow app** for uploading a dataset, cleaning it, transforming it, visualizing it, and exporting the final results.
+ 
+The app is designed to support a simple end-to-end workflow:
+ 
+1. **Upload & Overview**  
+   Load a CSV, Excel, or JSON dataset, or use one of the bundled sample datasets.
+2. **Cleaning Studio**  
+   Review missing values, duplicates, and data types, then apply cleaning and preparation steps.
+3. **Visualization Builder**  
+   Create charts from the transformed dataset using **Matplotlib**.
+4. **Export & Report**  
+   Download the cleaned dataset, saved charts, a transformation report, and a reproducible JSON recipe.
+ 
+## Main Features
+ 
+- Upload data from **CSV**, **Excel**, and **JSON**
+- Use included sample datasets from [`sample_data/`]
+- Inspect dataset shape, columns, types, and summary information
+- Clean missing values and duplicates
+- Convert and parse data types
+- Track transformation history with undo/reset support
+- Build visualizations from the cleaned data
+- Export:
+  - cleaned CSV
+  - cleaned Excel file
+  - charts as png
+  - transformation report in JSON or Markdown
+  - reproducible recipe in JSON
 
 ## Project structure
 
@@ -28,34 +37,81 @@ A Streamlit app for uploading a dataset, profiling it, cleaning and transforming
 streamlit_app.py
 src/
   data/
-    functions/
+    ..files
   pages/
     upload/
     prepare/
     visualize/
     export/
+  sidebars/
+    ..files
 sample_data/
 examples/
+requirements.txt
 task.md
 AI_USAGE.md
+.github
+.streamlit
+.gitignore
+docker-compose.yml
+Dockerfile
+README.md
 ```
-
-## Run locally
-
-1. Install dependencies:
-
+ 
+## How To Run
+ 
+### Option 1: Run Locally
+ 
+#### Prerequisites
+ 
+- Python **3.11+**
+- `pip`
+ 
+#### Steps
+ 
 ```bash
 pip install -r requirements.txt
-```
-
-2. Start the app:
-
-```bash
 streamlit run streamlit_app.py
 ```
-
-## Notes
-
-- The task asks for a deployed Streamlit URL and a demo video; those are not generated locally in this repo.
-- The task also asks for a report where AI use is forbidden, so that document is intentionally not authored here.
-- Transformation recipes are exported as JSON, which is the recommended path from the task brief.
+ 
+Then open:
+ 
+```text
+http://localhost:8501
+```
+ 
+### Option 2: Run With Docker
+ 
+Build the image:
+ 
+```bash
+docker build -t dwv-cw .
+```
+ 
+Run the container:
+ 
+```bash
+docker run -p 8501:8501 dwv-cw
+```
+ 
+Then open:
+ 
+```text
+http://localhost:8501
+```
+ 
+### Option 3: Run With Docker Compose
+ 
+```bash
+docker compose up --build
+```
+ 
+Then open:
+ 
+```text
+http://localhost:8501
+```
+ 
+## Project Entry Point
+ 
+The main app entry file is [`streamlit_app.py`](/home/mira/projects/dwv_cw/streamlit_app.py).
