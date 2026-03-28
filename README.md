@@ -34,7 +34,7 @@ The app is designed to support a simple end-to-end workflow:
 ## Project structure
 
 ```text
-streamlit_app.py
+app.py
 src/
   data/
     ..files
