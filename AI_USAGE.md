@@ -7,14 +7,11 @@
 - Added profiling, cleaning, validation, visualization, and export features requested in `task.md`.
 - Added bundled sample datasets and an example transformation report file.
 
-## Manual verification performed
-
-- Verified the app imports successfully with `python -m py_compile`.
-- Verified the repo contains the required top-level app entry point, requirements file, README, sample data, and AI usage note.
-- Verified the sample datasets have at least 1,000 rows and at least 8 columns.
-
-## Not verified in this workspace
-
+## What was implemented manually
+- Clean up the codebase, remove unnecessary functions (AI created a lot of repetitive functions)
 - Full interactive browser testing of every Streamlit control.
 - Deployment to Streamlit Community Cloud.
 - Demo video creation.
+
+## Chats
+AI_USAGE.doc file contains all the screenshots and links of chats with AI tools.

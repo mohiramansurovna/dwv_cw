@@ -166,22 +166,8 @@ User can define basic rules and see violations:
 - sample_data/ with at least two dataset
 - All chat and prompts used from A to Z for the dev
 
-### Short demo video (3-5 minutes):
-
-- upload data
-- clean missing values + categoreis
-- normalize numeric columns
-- build 2-3 visualizations
-- export cleaned data + report
-
 ### Transformation report output (example file)
 
 ### AI_USAGE.md
 
 - what we verified manually
-
-### The URL of your Streamlit app deployed on the Streamlit site
-
-### Report
-
-**A 2-page maximum report, where AI use is strictly forbidden. The report should explain your team's journey during this project: how you did it, what was difficult, what was easy, and what you learnt.**
