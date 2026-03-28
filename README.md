@@ -28,12 +28,11 @@ src/
   sidebars/
     ..files
 sample_data/
-examples/
 requirements.txt
 task.md
 AI_USAGE.md
-.github
-.streamlit
+.github/
+.streamlit/
 .gitignore
 docker-compose.yml
 Dockerfile
