@@ -96,4 +96,4 @@ http://localhost:8501
 
 ## Project Entry Point
 
-The main app entry file is [`streamlit_app.py`](/home/mira/projects/dwv_cw/streamlit_app.py).
+The main app entry file is [`streamlit_app.py`].
